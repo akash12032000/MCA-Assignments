@@ -289,8 +289,6 @@ Order = (3, 5, 6, 1, 2, 4)
 
 Step 3: (To find optimal solution using m = 13 & n = 6)
 
-Step 3: (To find optimal solution using m = 15 & n = 7)
-
 Consider x3 = 1, profit = 13
 Then consider x1 = 1, profit = 8
 So weight uptil now = 4 + 3 = 7
@@ -303,10 +301,15 @@ Now x5 = 1, profit = 6
 So total profit = 36 + 6 = 42
 And weight uptil now = 12 + 2 = 14
 
-
 Now x4 = 1, profit = 7
 So total profit = 42 + 7 = 49
 And weight uptil now = 14 + 6 = 20
+
+Since m = 13 so we require only 2 units more. Therefore x2 = 2/3
+So total profit = 49 + 8 x 2/3 = 49 + 3.33 = 52.3
+And weight uptil now = 20 + 3 x 2/3 = 22
+Thus, the optimal solution that gives maximum profit is,
+(1, 2/3, 1, 0, 1, 1, 1)
 
 
 
