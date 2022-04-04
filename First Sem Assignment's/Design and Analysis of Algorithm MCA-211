@@ -207,5 +207,15 @@ The above expression can be described as a function f(n) belongs to the set Θ(g
 sandwiched between c1g(n) and c2g(n), for sufficiently large n. If a function f(n) lies anywhere in between c1g(n) and c2g(n) for all n ≥ n0, then f(n) is 
 said to be asymptotically tight bound.
 
+Question 3. a) Evaluate p(x)= 3ˣ⁴+2ˣ³-5ˣ+7 at x=2 using Horne’s rule. Show step wise iterations.
+
+Since the polynomial is of the 4th degree, then n = 4
+
+
+K	   4	              3	                    1         	       0
+Step	b4 = 3        	b3 = 2 + 2 * 3	     b1 = -5 + 2 * 8	b0 = 7 + 2 * 11
+Result	   3	              8	                    11	               29
+
+
 
 
