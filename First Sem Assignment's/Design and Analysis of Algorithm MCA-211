@@ -372,6 +372,12 @@ Step 3: Extract two minimum frequency nodes from heap. Add a new internal node w
     /      \
    /        \
   K:2       IN:2   
+             /\
+            /  \
+           /    \
+          /      \
+         /        \
+        A:1       B:1  
 
 Now min heap contains 6 nodes where 5 nodes are roots of trees with single element each, and one heap node is root of tree with 5 elements
 
@@ -392,6 +398,18 @@ Step 4: Extract two minimum frequency nodes from heap. Add a new internal node w
     /      \
    /        \
   D:3       IN:4   
+       	     /\
+      	    /  \
+           /    \
+          /      \
+         /        \
+       K:2       IN:2   
+                  /\
+                 /  \
+                /    \
+               /      \
+              /        \
+             A:1       B:1  
 
 Now min heap contains 5 nodes where 4 nodes are roots of trees with single element each, and one heap node is root of tree with 4 elements
 
@@ -411,6 +429,24 @@ Step 5: Extract two minimum frequency nodes from heap. Add a new internal node w
     /      \
    /        \
   F:5       IN:7  
+             /\
+            /  \
+           /    \
+          /      \
+         /        \
+       D:3       IN:4   
+       	          /\
+      	         /  \
+                /    \
+               /      \
+              /        \
+            K:2       IN:2   
+                       /\
+                      /  \
+                     /    \
+                    /      \
+                   /        \
+                  A:1       B:1  
 
 Now min heap contains 4 nodes where 3 nodes are roots of trees with single element each, and one heap node is root of tree with 3 elements
 
@@ -426,9 +462,31 @@ Step 6: Extract two minimum frequency nodes from heap. Add a new internal node w
        /\
       /  \
      /    \
-    /      \
-   /        \
  G:8       IN:12  
+            /\
+           /  \
+          /    \
+         /      \
+        /        \
+       F:5       IN:7  
+                  /\
+                 /  \
+                /    \
+               /      \
+              /        \
+            D:3       IN:4   
+            	          /\
+           	         /  \
+                        /    \
+                       /      \
+                      /        \
+                    K:2       IN:2   
+                               /\
+                              /  \
+                             /    \
+                            /      \
+                           /        \
+                          A:1       B:1  
 
 Now min heap contains 3 nodes where 2 nodes are roots of trees with single element each, and one heap node is root of tree with 2 elements
 
@@ -446,6 +504,34 @@ Step 7:Extract two minimum frequency nodes from heap. Add a new internal node wi
     /      \
    /        \
  H:13       IN:20  
+             /\
+            /  \
+           /    \
+        G:8     IN:12  
+                  /\
+                 /  \
+                /    \
+               /      \
+              /        \
+             F:5       IN:7  
+                        /\
+                       /  \
+                      /    \
+                     /      \
+                    /        \
+                  D:3       IN:4   
+            	                /\
+           	               /  \
+                              /    \
+                             /      \
+                            /        \
+                          K:2       IN:2   
+                                     /\
+                                    /  \
+                                   /    \
+                                  /      \
+                                 /        \
+                                A:1       B:1  
 
 Now min heap contains 2 nodes where 1 nodes are roots of trees with single element each, and one heap node is root of tree with 1 elements
 
@@ -462,8 +548,44 @@ Step 8:Extract two minimum frequency nodes from heap. Add a new internal node wi
     /      \
    /        \
  E:21       IN:33  
+              /\
+             /  \
+            /    \
+           /      \
+          /        \
+        H:13       IN:20  
+                    /\
+                   /  \
+                  /    \
+               G:8     IN:12  
+                         /\
+                        /  \
+                       /    \
+                      /      \
+                     /        \
+                    F:5       IN:7  
+                               /\
+                              /  \
+                             /    \
+                            /      \
+                           /        \
+                         D:3       IN:4   
+            	                       /\
+           	                      /  \
+                                     /    \
+                                    /      \
+                                   /        \
+                                 K:2       IN:2   
+                                            /\
+                                           /  \
+                                          /    \
+                                         /      \
+                                        /        \
+                                       A:1       B:1  
+   
+    
 
-Now min heap contains 2 nodes where 1 nodes are roots of trees with single element each, and one heap node is root of tree with 1 elements
+Now min heap contains 1 odes where 1 nodes are roots of trees with single element each, and one heap node is root of tree with 1 elements
 
 character   Frequency
 Internal Node  54
