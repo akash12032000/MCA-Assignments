@@ -1,1 +1,34 @@
-Question 1. 
+Question 1. a) What are the desirable characteristics of an algorithm? Find the GCD of p = 144 and q = 55 using Euclid’s algorithm.
+
+Answer. 1)Input specified : 
+The input is the data to be transformed during the computation to produce the output.An algorithm should have 0 or 
+more well-defined inputs.Input precision requires that you know what kind of data, how much and what form the data should be
+
+2)Output specified : 
+The output is the data resulting from the computation (your intended result). An algorithm should have 1 or more well-defined
+outputs, and should match the desired output.Output precision also requires that you know what kind of data, how much and what form the output should 
+be (or even if there will be any output at all!).
+
+3)Definiteness : 
+Algorithms must specify every step and the order the steps must be taken in the process.Definiteness means specifying the sequence of 
+operations for turning input into output. Algorithm should be clear and unambiguous.Details of each step must be also be spelled out (including how to handle errors).
+It should contain everything quantitative and not qualitative.
+
+4)Effectiveness : 
+For an algorithm to be effective, it means that all those steps that are required to get to output must be feasible with the available 
+resources.It should not contain any unnecessary and redundant steps which could make an algorithm ineffective.
+
+5)Finiteness :
+The algorithm must stop, eventually.Stopping may mean that you get the expected output OR you get a response that no solution is possible. Algorithms must terminate
+after a finite number of steps.An algorithm should not be infinite and always terminate after definite number of steps. 
+
+There is no point in developing an algorithm which is infinite as it will be useless for us.
+
+6)Independent :
+An algorithm should have step-by-step directions, which should be independent of any programming code.It should be such that it could be run on any of the programming languages.
+Thus,these are the characteristics that an algorithm should have for its fruitfulness.
+
+
+
+
+
