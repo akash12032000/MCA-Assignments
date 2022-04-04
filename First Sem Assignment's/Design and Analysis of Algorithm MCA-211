@@ -266,3 +266,21 @@ Steps: [13],2,6,14,10,8,7,3,5,15,4,19
 2,3,4,5,6,7,[8],[10],13,14,15,19
 2,3,4,5,6,7,8,[10],[13],14,15,19
 2,3,4,5,6,7,8,10,[13],[14],15,19
+
+Question 4. a) Find an optimal solution for the knapsack instance n=6 and M=13, (p1, p2,…, p6)=(8, 5, 13, 7, 6, 15) (w1, w2,…, w6)=(3, 2, 4, 6, 2, 5)
+
+Answer. 
+Given: n=6 and M=13, (p1, p2,…, p6)=(8, 5, 13, 7, 6, 15) (w1, w2,…, w6)=(3, 2, 4, 6, 2, 5)
+
+To prove: Optimal solution that gives maximum profit.
+Proof:
+Step 1: (To find profit/ weight ratio)
+p1/w1 = 8/3 = 2.67
+p2/w2 = 5/2 = 2.5
+p3/w3 = 13/4 = 3.25
+p4/w4 = 7/6 = 1.167
+p5/w5 = 6/2 = 3
+p6/w6 = 15/5 = 3
+
+
+
