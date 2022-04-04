@@ -352,7 +352,7 @@ Step 2 Extract two minimum frequency nodes from min heap. Add a new internal nod
    /        \
   A:1       B:1   
 
-Now min heap contains 7 nodes where 6 nodes are roots of trees with single element each, and one heap node is root of tree with 3 elements
+Now min heap contains 7 nodes where 6 nodes are roots of trees with single element each, and one heap node is root of tree with 6 ements
 
 character   Frequency
 Internal Node  2
@@ -363,10 +363,141 @@ G             8
 H             13
 E             21
 
-Step 3: Extract two minimum frequency nodes from heap. Add a new internal node with frequency 12 + 13 = 25
+Step 3: Extract two minimum frequency nodes from heap. Add a new internal node with frequency 2 + 2 = 4
+
+        4
+       /\
+      /  \
+     /    \
+    /      \
+   /        \
+  K:2       IN:2   
+
+Now min heap contains 6 nodes where 5 nodes are roots of trees with single element each, and one heap node is root of tree with 5 elements
+
+character   Frequency
+Internal Node  4
+D	      3	
+F             5
+G             8
+H             13
+E             21
+
+Step 4: Extract two minimum frequency nodes from heap. Add a new internal node with frequency 4 + 3 = 7
+
+        7
+       /\
+      /  \
+     /    \
+    /      \
+   /        \
+  D:3       IN:4   
+
+Now min heap contains 5 nodes where 4 nodes are roots of trees with single element each, and one heap node is root of tree with 4 elements
+
+character   Frequency
+Internal Node  7
+F             5
+G             8
+H             13
+E             21
+
+Step 5: Extract two minimum frequency nodes from heap. Add a new internal node with frequency 7 + 5 = 12
+
+       12
+       /\
+      /  \
+     /    \
+    /      \
+   /        \
+  F:5       IN:7  
+
+Now min heap contains 4 nodes where 3 nodes are roots of trees with single element each, and one heap node is root of tree with 3 elements
+
+character   Frequency
+Internal Node  12
+G             8
+H             13
+E             21
+
+Step 6: Extract two minimum frequency nodes from heap. Add a new internal node with frequency 12 + 8 = 20
+
+       20
+       /\
+      /  \
+     /    \
+    /      \
+   /        \
+ G:8       IN:12  
+
+Now min heap contains 3 nodes where 2 nodes are roots of trees with single element each, and one heap node is root of tree with 2 elements
+
+character   Frequency
+Internal Node  20
+H             13
+E             21
+
+Step 7:Extract two minimum frequency nodes from heap. Add a new internal node with frequency 20 + 13 = 33
+
+       33
+       /\
+      /  \
+     /    \
+    /      \
+   /        \
+ H:13       IN:20  
+
+Now min heap contains 2 nodes where 1 nodes are roots of trees with single element each, and one heap node is root of tree with 1 elements
+
+character   Frequency
+Internal Node  33
+E             21
+
+Step 8:Extract two minimum frequency nodes from heap. Add a new internal node with frequency 33 + 21 = 54
+
+       54
+       /\
+      /  \
+     /    \
+    /      \
+   /        \
+ E:21       IN:33  
+
+Now min heap contains 2 nodes where 1 nodes are roots of trees with single element each, and one heap node is root of tree with 1 elements
+
+character   Frequency
+Internal Node  54
+
+Steps to print codes from Huffman Tree:
+Traverse the tree formed starting from the root. Maintain an auxiliary array. While moving to the left child, write 0 to the array. While moving to the right child, write 1 to the array. Print the array when a leaf node is encountered.
 
 
-
-
-
-
+						54
+					        /\
+					       /  \		
+					      /    \
+					    E:21   33	
+					           /\
+						  /  \
+						 /    \
+					       H:13   20
+					       	      /\
+						     /  \
+						    /    \
+						  G:8     12
+						  	  /\
+							 /  \
+							/    \
+						      F:5     7
+						      	     /\
+						            /  \
+						           /    \
+							 D:3     4
+							        /\
+							       /  \
+							      /    \
+							    K:2     2
+							            /\
+								   /  \
+								  /    \
+								 A:1   B:1
