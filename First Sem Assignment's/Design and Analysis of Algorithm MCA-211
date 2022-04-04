@@ -282,5 +282,31 @@ p4/w4 = 7/6 = 1.167
 p5/w5 = 6/2 = 3
 p6/w6 = 15/5 = 3
 
+Step 2: (Arrange this profit/weight ratio in non-increasing order as n values) Since the highest profit/weight ratio is 3.25. That is p3/w3, so 1st value is 3. 
+Second highest profit/weight ratio is 3. That is p5/w5, so 2nd value is 5. Similarly, calculate such n values and arrange them in non-increasing order.
+
+Order = (3, 5, 6, 1, 2, 4)
+
+Step 3: (To find optimal solution using m = 13 & n = 6)
+
+Step 3: (To find optimal solution using m = 15 & n = 7)
+
+Consider x3 = 1, profit = 13
+Then consider x1 = 1, profit = 8
+So weight uptil now = 4 + 3 = 7
+
+Now x6 = 1, profit = 15
+So total profit = 21 + 15 = 36
+And weight uptil now = 7 + 5 = 12
+
+Now x5 = 1, profit = 6
+So total profit = 36 + 6 = 42
+And weight uptil now = 12 + 2 = 14
+
+
+Now x4 = 1, profit = 7
+So total profit = 42 + 7 = 49
+And weight uptil now = 14 + 6 = 20
+
 
 
