@@ -140,6 +140,22 @@ Fashion	          The greedy method computes its solution by making its choices 
 
 Question 2. a) Prove that, for all positive integers n, 1 + 2 + 4 + ⋯ + 2! = 2!"# − 1
 
+Answer.
+Consider the given statement
+P(n):1+2+4+...2ⁿ=2ⁿ⁺¹−1, for natural numbers n.
+Step I We observe that P(0) is true.
+P(2):1+2+4=8−1
+7=7, which is true.
+Step II Now, assume that P(n) is true for n=k.
+So, P(k) : 1+2+4+...2ᵏ=2ᵏ⁺¹−1 is true.
+Step III Now, to prove P(k+1) is true.
+P(k+1):1+2+4+...+2ᵏ+2ᵏ⁺¹
+=2ᵏ⁺¹−1+2ᵏ⁺¹
+=2⋅2ᵏ⁺¹−1
+=2ᵏ⁺¹+1−1
+So, P(k+1) is true, whenever P(k) is true.
+Hence, P(n) is true.
+
 
 
 
