@@ -781,6 +781,7 @@ Comparing with the standard form of the Master method mentioned earlier, here, a
 
 So, Case 1 is the solution for the merge sort algorithm. So, the time complexity of the merge sort algorithm is O(nlog(n)).
 
+Question 5. c) Explain divide and conquer strategy with an example of Matrix multiplication.
 
 
 
