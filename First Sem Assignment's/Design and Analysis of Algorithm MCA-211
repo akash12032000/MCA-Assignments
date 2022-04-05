@@ -721,3 +721,38 @@ class Huffman {
 }
 
 
+Question 5. a) Write the steps involved in searching an element in a given array of sorted elements using Binary search algorithm. Assume the searched
+element if not present in the sequence. 
+
+Answer. An element in a sorted array can be found in O(log n) time via binary search. But suppose we rotate an ascending order sorted array at some pivot unknown to you beforehand. So for instance, 1 2 3 4 5 might become 3 4 5 1 2. Devise a way to find an element in the rotated array in O(log n) time
+
+Time Complexity: O(log n). 
+Binary Search requires log n comparisons to find the element. So time complexity is O(log n).
+Space Complexity:O(1), No extra space is required.
+
+Improved Solution: 
+Approach: Instead of two or more pass of binary search the result can be found in one pass of binary search. The binary search needs to be modified to perform the search. The idea is to create a recursive function that takes l and r as range in input and the key.
+
+public class BinarySearching {
+	
+	public static int BinarySearch(int[] arr,int min,int max,int key) {
+		
+		int mid = (min + max)/2;
+		if(arr[mid] == key)
+			return mid;
+		if(arr[mid] > key) {
+			return BinarySearch(arr, min, mid-1, key);
+		}
+		return BinarySearch(arr, mid+1, max, key);
+	}
+
+	public static void main(String[] args) {
+		 int arr[] = { 4, 5, 6, 7, 8, 9, 1, 2, 3 };
+		System.out.println(BinarySearch(arr, 0, arr.length-1, 8));
+		
+
+	}
+
+}
+
+
