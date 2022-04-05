@@ -755,4 +755,35 @@ public class BinarySearching {
 
 }
 
+Question 5. b) Analyse the merge sort algorithm Master Method. Also draw the relevant recursion tree.
+
+
+Answer. 
+Master Method Formulas
+The master method is very straightforward. They call it a cookbook method. Just follow the recipe. It’s done!
+There are three solutions for the standard form of the master method:
+Case 1:
+		O(nᵈlog(n)) if a = bᵈ
+Case 2:
+		O(nᵈ) if a < bᵈ
+Case 3:
+		O(nˡᵒᵍbᵃ) if a > bᵈ
+		
+Let’s solve the recurrence of merge sort:
+
+This was the recurrence of the merge sort algorithm:
+
+		T(n) = 2T(n/2)+O(n)
+
+Comparing with the standard form of the Master method mentioned earlier, here, a = 2, b = 2, and d = 1.
+
+		a = bᵈ is true.
+
+So, Case 1 is the solution for the merge sort algorithm. So, the time complexity of the merge sort algorithm is O(nlog(n)).
+
+
+
+
+
+
 
