@@ -974,8 +974,60 @@ Disadvantages of Dijkstra’s Algorithm:
 It is unable to handle negative weights.
 It follows a kind of blind approach so there is a wastage of time.
 
- 
+Question 8. a) Explain the principle of optimality with respect to binary search.
+
+Answer. As we know that in binary search tree, the nodes in the left subtree have lesser value than the root node and the nodes in the right subtree have greater value than the root node.
+
+We know the key values of each node in the tree, and we also know the frequencies of each node in terms of searching means how much time is required to search a node. The frequency and key-value determine the overall cost of searching a node. The cost of searching is a very important factor in various applications. The overall cost of searching a node should be less. The time required to search a node in BST is more than the balanced binary search tree as a balanced binary search tree contains a lesser number of levels than the BST. There is one way that can reduce the cost of a binary search tree is known as an optimal binary search tree.
+If the keys are 10, 20, 30, 40, 50, 60, 70
+
+https://static.javatpoint.com/ds/images/optimal-binary-search-tree.png
+
+In the above tree, all the nodes on the left subtree are smaller than the value of the root node, and all the nodes on the right subtree are larger than the value of the root node. The maximum time required to search a node is equal to the minimum height of the tree, equal to logn.
+
+Question 8. b) Find an optimal parenthesization of a matrix-chain product whose
+sequence of dimensions is as follows:
+
+Answer. Given a sequence of matrices, find the most efficient way to multiply these matrices together. The problem is not actually to perform the multiplications, but merely to decide in which order to perform the multiplications.
+We have many options to multiply a chain of matrices because matrix multiplication is associative. In other words, no matter how we parenthesize the product, the result will be the same. For example, if we had four matrices A, B, C, and D, we would have: 
 
 
+class MatrixChainMultiplication {
+	// Matrix Ai has dimension p[i-1] x p[i] for i = 1..n
+	static int MatrixChainOrder(int p[], int i, int j)
+	{
+		if (i == j)
+			return 0;
 
+		int min = Integer.MAX_VALUE;
+
+		// place parenthesis at different places between
+		// first and last matrix, recursively calculate
+		// count of multiplications for each parenthesis
+		// placement and return the minimum count
+		for (int k = i; k < j; k++)
+		{
+			int count = MatrixChainOrder(p, i, k)
+						+ MatrixChainOrder(p, k + 1, j)
+						+ p[i - 1] * p[k] * p[j];
+
+			if (count < min)
+				min = count;
+		}
+
+		// Return minimum count
+		return min;
+	}
+
+	// Driver code
+	public static void main(String args[])
+	{
+		int arr[] = new int[] { 1, 2, 3, 4, 3 };
+		int n = arr.length;
+
+		System.out.println(
+			"Minimum number of multiplications is "
+			+ MatrixChainOrder(arr, 1, n - 1));
+	}
+}
 
