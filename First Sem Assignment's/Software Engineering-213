@@ -205,21 +205,7 @@ SRS Software Requirements Specification
 SUMS Student and Units Management System
 J2EE Java 2 Platform Enterprise Edition
 JSP Java Server Page
-UP LinkUOP Student Portal Facility
-OS Operating System
-1.4. References
-Brigg
-s
-Briggs, J. (2005). SUMS documentation. Retrieved
-3
-rd December 2005,
 
-2005 from http://www.tech.port.ac.uk/staffweb/briggsj/jimapp/S
-UMS/
-IEEE
-1998
-IEEE Std 830-1998, IEEE Recommended Practice for
-Software Requirements Specifications. ISBN 0-7381-0332-
 2.
 1.5. Overview
 This document has been prepared in accordance with the IEEE
@@ -402,3 +388,19 @@ should be transferable between different OS and Java container.
 3.4 Other requirements
 For further extending, is able to send notification by SMS.
 
+f). List queries for whom Reports can be generated
+
+Answer. Click the Reports icon in the Security Console Web interface. OR Click the Create tab at the top of the page and then select Site from the drop-down list.
+On the Create a report page, select the Export option and then select the -SQL Query Export_ template from the carousel. The Security Console displays a box for defining a query and a drop-down list for selecting a data model version. Currently, versions 1.2.0 and 1.1.0 are available. It is the current version and covers all functionality available in preceding versions.
+Optional: If you want to focus the query on specific assets, click the control to Select Sites, Assets, or Asset Groups, and make your selections. If you do not select specific assets, the query results will be based on all assets in your scan history.
+Optional: If you want to limit the query results with vulnerability filters, click the control to Filter report scope based on vulnerabilities, and make your selections.
+Click the text box for defining the query. The Security Console displays a page for defining a query, with a text box that you can edit.
+In this text box, enter the query. Tip: Click the Help icon to view a list of sample queries. You can select any listed query to use it for the report.
+Click the Validate button to view and correct any errors with your query. The validation process completes quickly.
+Click the Preview button to verify that the query output reflects what you want to include in the report. The time required to run a preview depends on the amount of data and the complexity of the query.
+If necessary, edit the query based on the validation or preview results. Otherwise, click the Done button to save the query and run a report.
+If you click Cancel, you will not save the query.
+The Security Console displays the Create a report page with the query displayed for reference.
+Click Save & run the report or Save the report, depending on what you want to do.
+For example, if you have a saved report and want to run it one time with an additional site in it, you could add the site, save and run, return it to the original configuration, and then just save.
+In either case, the saved SQL query export report appears on the View reports page.
