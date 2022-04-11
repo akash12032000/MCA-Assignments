@@ -11,3 +11,11 @@ Contingency – A proposition that is neither a tautology nor a contradiction is
 1. p V - p  is a tautology.
 2. p A \vee q  is a contingency.
 3. p V q is a contingency.
+
+Definition of Logical Equivalence
+Formally,
+Two propositions p and q are said to be logically equivalent if p \leftrightarrow q is a Tautology. The notation p\equiv q is used to denote that p and q are logically equivalent.
+One way of proving that two propositions are logically equivalent is to use a truth table. The truth table must be identical for all combinations for the given propositions to be equivalent. But this method is not always feasible since the propositions can be increasingly complex both in the number of propositional variables used and size of the expression.
+In this case, there needs to be a better way to prove that the two given propositions are logically equivalent. That better way is to construct a mathematical proof which uses already established logical equivalences to construct additional more useful logical equivalences.
+
+Question 1. With respect to rule of precedence, write the truth table for the following expression: p « qÚ~r « r Å q
