@@ -1,0 +1,13 @@
+Question 1. What are laws related to equivalence propositions ? Give example for each of equivalence proposition laws.
+
+Answer. Introduction
+Two logical expressions are said to be equivalent if they have the same truth value in all cases. Sometimes this fact helps in proving a mathematical result by replacing one expression with another equivalent expression, without changing the truth value of the original compound proposition.
+
+There are three types of propositions when classified according to their truth values
+Tautology – A proposition which is always true, is called a tautology.
+Contradiction – A proposition which is always false, is called a contradiction.
+Contingency – A proposition that is neither a tautology nor a contradiction is called a contingency.
+
+1. p V - p  is a tautology.
+2. p A \vee q  is a contingency.
+3. p V q is a contingency.
