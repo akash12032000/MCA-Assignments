@@ -1,0 +1,404 @@
+Question 1. Assume that you are assigned responsibility of developing an Online Grade Card Generation
+System (OGCGS) for a University. OGCGS should run both on PCs and Mobile Devices.
+OGCGS will have all fields such as Student’s name, Student’s Address, Learner Support Center
+Code and Address, Aadhaar Number, Programme Code, Month (January/July) and Year of
+Admission , Course Codes and Titles (Semester Wise), Marks obtained, Maximum and Minimum
+Marks, Pass/Fail (Course Wise), Percentage Course Wise, Aggregate Percentage, Programme
+Successfully Completed/Not Completed, Division (First/Second/Third) secured etc. Any student
+enrolled to any programme should be able to generate Grade Card any time. Make necessary
+assumptions.
+
+a). Which SDLC paradigm will be selected. You may also suggest a SDLC paradigm
+that is proposed by you and non-existent as on date. Justify your answer
+
+Answer. The Spiral model seems as an ideal choice here. No other model seems
+a reasonable alternative to accept as a different answer. This model combines the
+features of the prototyping & the waterfall model. As Student Admission System
+for a university is a large project, therefore spiral model is intended for large,
+complex, expensive & complicated projects.
+The steps in the spiral model can be generalized as follows:
+1. The new system requirements are defined in as much detail as possible. This
+usually involves interviewing a number of users representing all the external or
+internal users and other aspects of the existing system.
+2. A preliminary design is created for the new system.
+3. A first prototype of the new system is constructed from the preliminary design.
+This is usually a scale down system, and represents an approximation of the
+characteristics of the final product.
+For More Solved Assignments Visit - http://www.ignousolvedassignments.com
+4. A second prototype is evolved by a fourfold procedure:
+(1) Evaluating the first prototype in terms of its strengths, weaknesses, and risks;
+(2) Defining the requirements of the second prototype;
+(3) Planning and designing the second prototype;
+(4) Constructing and testing the second prototype.
+Strength:
+1. Estimates (i.e. budget, schedule, etc.) become more realistic as work
+progresses, because important issues are discovered earlier.
+2. It is more able to cope with the (nearly inevitable) changes that software
+development generally entails.
+3. Software engineers (who can get restless with protracted design processes) can
+get their hands in and start working on a project earlier.
+Weakness:
+1. Highly customized limiting re-usability
+2. Applied differently for each application
+For More Solved Assignments Visit - http://www.ignousolvedassignments.com
+3. Risk of not meeting budget or schedule
+4. Risk of not meeting budget or schedule
+
+
+b). List the functional and non-functional requirements. 
+
+Answer. 
+1. Functional requirements
+Ans. In software engineering, a functional requirement defines a function of a
+software system or its component. A function is described as a set of inputs, the
+behavior, and outputs (see also software). Functional requirements may be
+calculations, technical details, data manipulation and processing and other
+specific functionality that define what a system is supposed to accomplish..
+User Interfaces:
+1. Login screen
+2. menu selection screen
+3. Admission Form Online
+4. Admission Instruction information
+5. Admission Form Offline
+For More Solved Assignments Visit - http://www.ignousolvedassignments.com
+6. Admission form Status
+7. Result
+8. Merit List
+Hardware Interfaces Server Configuration:
+Minimum 2GB Hard Disk
+P-III processor or equivalent
+Ram 512 MB
+Windows with Apache preloaded. Client Configuration
+A terminal with Internet Explorer and Printer.
+Software Interfaces Operating system – WindowsXP,
+OracleNetwork -- LAN
+2. Non-functional requirements
+Performance Requirements
+System can withstand even though many number of users requested the desired
+service. As we are keeping office level server of the automated payroll system.
+For More Solved Assignments Visit - http://www.ignousolvedassignments.com
+And access is given to the only registered users of office who requires the services
+of viewing, Updating etc. It can withstand the load.
+Security Requirements
+Sensitive data is protected from unwanted access by users appropriate
+technology and implementing strict user access criteria.
+Software Quality Attributes
+Menu-driven programs with user friendly interface with simply hyper links. It is
+very easy to use. Backup mechanisms are considered for maintainability of
+software as well as database. As it is object oriented reusability exists. As project
+is based on MVC architecture, testability exists.
+Safety & Reliability Requirements
+By incorporating a robust and proven SQL into the system, reliable performance
+and integrity of data is ensured. There must be a power backup for server system. 
+
+
+c).Estimate cost
+
+Answer. Software Cost Estimation is widely considered to be a weak link in software
+project management. It requires a significant amount of effort to perform it
+correctly. Errors in Software Cost Estimation can be attributed to a variety of
+factors. Various studies in the last decade indicated that 3 out of 4 Software
+projects are not finished on time or within budget or both
+Who is responsible for Software Cost Estimation? The group of people
+responsible for creating a software cost estimate can vary with each organization.
+However the following is possible in most scenarios –
+People who are directly involved with the implementation are involved in
+the estimate. - Project Manager is responsible for producing realistic cost
+estimates. - Project Managers may perform this task on their own or
+consult with programmers responsible. - Various studies indicate that if the
+programmers responsible for development are involved in the estimation it
+was more accurate. The programmers have more motivation to meet the
+targets if they were involved in the estimation process.
+For More Solved Assignments Visit - http://www.ignousolvedassignments.com
+Factors contributing to inaccurate estimation
+Scope Creeps, imprecise and drifting requirements · New software projects
+pose new challenges, which may be very different from the past projects. ·
+Many teams fail to document metrics and lessons learned from past
+projects · Many a times the estimates are forced to match the available
+time and resources by aggressive leaders · Unrealistic estimates may be
+created by various „political under currents‟
+Impact of Under-estimating:
+Under-Estimating a project can be vary damaging
+It leads to improper Project Planning - It can also result in under-staffing
+and may result in an over worked and burnt out team
+Above all the quality of deliverables may be directly affected due
+insufficient testing and QA
+Missed Dead lines cause loss of Credibility and goodwill
+
+d).Estimate effort. 
+
+Answer. Estimating
+The process of forecasting or approximating the time and cost of
+completing project deliverables.
+The task of balancing the expectations of stakeholders and the need for
+control while the project is implemented
+The two primary elements in test estimation are time and resources. Your
+estimation needs to take both into account.
+There are many questions you need to answer in order to do test estimation. The
+more accurate and thorough your answers to these questions the better your test
+estimation.
+What modules or functionalities will be tested and how many testers are
+available to test them? Of course as functionalities increase and/or number
+of testers decrease the more time it will take to throughly test the
+application.
+What is the complexity of each of these modules or functionalities? As the
+complexity increases the more time and effort will be required to
+For More Solved Assignments Visit - http://www.ignousolvedassignments.com
+understand the application create test plans create test cases execute test
+cases regress test cases and retest defects.
+How many test iterations (test runs) will be required to complete the test
+project? This is also related to complexity. As an application becomes more
+complex it will typically require more test iterations to reach the company's
+exit critera (the number of open defects by severity and priority that a
+company can live with).
+How much time will be required by developers to produce fixes for new
+builds between test runs? Complexity is also a factor here. As an application
+becomes more complex there are often more dependencies between
+modules and functionalities. This often requires coordination between
+developers. Consequently this takes more time. This is important because
+your estimation must also include the amount of time testers are waiting
+for the next build between test runs.
+What is the average number of defects that you anticipate will be found
+during each test run? You may have already guessed that complexity is a
+factor here too. The more complex an application the greater number of
+defects will reach the test team when the application is released to them.
+For More Solved Assignments Visit - http://www.ignousolvedassignments.com
+In addition the more complex the application the more likely that severe
+and high priority defects will be found in later stages of the test process.
+
+e). Develop SRS using IEEE format. 
+
+Answer. 
+Preface
+This document contains the Software Requirements Specification
+(SRS) of an Student Admission System. The main aim of this
+project is to add functionality to the existing SUMS system in
+order to provide an online facility for managing and registering
+student accounts and fill form.
+This document has been prepared in accordance with the IEEE
+Std 830-1998, IEEE Recommended Practice for Software
+Requirements Specifications [IEEE 1998].
+1. Introduction
+This Software Requirement Specification is written accordance
+with the IEEE Std 830-1998 model.
+1.1. Purpose
+
+This SRS Document contains the complete software requirements
+for the Student Admission System (SAS) and describes the design
+decisions, architectural design and the detailed design needed to
+implement the system. It provides the visibility in the design and
+provides information needed for software support.
+1.2. Scope
+Student Admission System (SAS) used to replace old paper work
+system. SAS is to build upon the existing web-based project
+marking system PUMS in order to implement the project marking
+process and allocating supervisor/ideas to students. This increase
+in efficiency of project marking, audit trails of marking process,
+give feedback to student, finally, publication and email student
+result. It provides a mechanism to edit the online marking form
+which makes the system is flexible.
+1.3. Definitions, acronyms, and abbreviations
+SAS Student Admission System
+
+PUMS Project Units Management System
+SRS Software Requirements Specification
+SUMS Student and Units Management System
+J2EE Java 2 Platform Enterprise Edition
+JSP Java Server Page
+UP LinkUOP Student Portal Facility
+OS Operating System
+1.4. References
+Brigg
+s
+Briggs, J. (2005). SUMS documentation. Retrieved
+3
+rd December 2005,
+
+2005 from http://www.tech.port.ac.uk/staffweb/briggsj/jimapp/S
+UMS/
+IEEE
+1998
+IEEE Std 830-1998, IEEE Recommended Practice for
+Software Requirements Specifications. ISBN 0-7381-0332-
+2.
+1.5. Overview
+This document has been prepared in accordance with the IEEE
+Std 830‐1998, IEEE Recommended Practice for Software
+Requirements Specifications [IEEE 830‐1998 (1998)]. It provides
+the information of Product perspective, Product functions, User
+characteristics, Constraints, Assumptions and dependencies and
+specific requirement.
+2. Overall description
+This section of the SRS describes all general factors of the
+product and its requirements.
+2.1. Product perspective
+
+2.1.1. System interfaces
+The SUMS is the new updated version of PUMS - the web-based
+project unit management system. It is intended to implement all
+PUMS's features for the administration of student projects. The
+SUMS is using J2EE platform and Struts Model 2. All components
+follow Model-View-Controller pattern. SUMS import JimApp
+packages that can either connecting to an Oracle database or
+MySQL database through the Database Utility components. The
+possible extension is to inter-connection to UP Link System which
+provide student with many functions, including the ability to
+check assessment results. Students can connect both systems to
+retrieve information on their academic progress.
+2.1.2. User interfaces
+All pages of the system are following a consistent theme and
+clear structure. The occurrence of errors should be minimized
+through the use of checkboxes, radio buttons and scroll down in
+order to reduce the amount of text input from user. JavaScript
+implement in HTML in order to provide a Data Check before
+
+submission. HTML Tables to display information to give a clear
+structure that easy to understand by user. Error message should
+be located beside the error input which clearly highlight and tell
+user how to solve it. If system error, it should provide the contact
+methods. The page should display the project process in different
+colour to clearly reflect the various states that student done. Each
+level of user will have its own interface and privilege to mange
+and modify the project information such as supervisor able to
+monitor/manage his student progress and make comment on it,
+student can change his detail, view the progress, submit project
+idea. The System should provide a feedback form for all users to
+give comments or asking questions. It should provide a FAQ to
+minimize the workload of system administrator.
+2.1.3. Hardware interfaces
+a. Server Side
+The web application will be hosted on one of the department's
+
+Linux servers and connecting to one of the school Oracle
+Database server. The web server is listening on the web standard
+port, port 80.
+b. Client Side
+The system is a web based application; clients are requiring using
+a modern web browser such as Mozilla Firebox 1.5, Internet
+Explorer 6 and Enable Cookies. The computer must have an
+Internet connection in order to be able to access the system.
+2.1.4. Software interfaces
+a. Server Side
+The UOP already has the required software to host a Java web
+application. An Apache Web server will accept all requests from
+the client and forward SUMS specific requests to Tomcat 5.5
+Servlet Container with J2EE 5.0 and Strut 1.2.8 hosting SUMS. A
+
+development database will be hosted locally (using MySQL); the
+production database is hosted centrally (using Oracle).
+b. Client Side
+An OS is capable of running a modern web browser which
+supports HTML version 3.2 or higher.
+2.1.5. Communications interfaces
+The HTTP protocol will be used to facilitate communications
+between the client and server.
+2.1.6. Memory
+The UOP already hosts a number of Java web applications, it is
+not anticipated that OPMS will require any additional memory
+storage.
+g) Operations Procedures are already in place as part of the
+UOP's IT policies for data security and Backup.
+
+h) Site adaptation requirements. There should no site adaptation
+requirement since the Web Application Server was setup and
+running Java web application.
+2.2. System functions
+This section outlines all the main feature of SAS.
+2.2.1. Student role
+The Student can register a SUMS accounts and start the progress
+of project. On the register form, student should enter all their
+detail such as HEMIS numbers, Email and contact number. The
+system will generate activation code and send email to student
+and confirm the registration. After, the system allow student to
+change information and provide the function forget password for
+student to retrieve back the password.
+2.2.2. Administration role
+The system administrator must be able to:
+1. deactivate and reactivate student account login
+
+2. force the sending of a new password to a student via email
+3. change any of a student's details
+2.2.3. Audit Trailing
+Each user will have an associated record of history. This will
+provide information on various events such as Previous
+Development - a number of components have been developed by
+the client, Jim Briggs, and previous developer, Steven J Powell.
+New components need to compatible to the exist system.
+2.5 Assumptions and dependencies
+Although basic password authentication and role based security
+mechanisms will be used to protect OPMS from unauthorised
+access; functionality such as email notifications are assumed to
+be sufficiently protected under the existing security policies
+applied by the University network team. Redundant Database is
+setup as the role of backup Database Server when primary
+database is failure.
+
+The correct functioning of OPMS will partly be dependant on the
+correctness of the data stored and managed as part of the PUMS
+system. Also, the application will be hosted by the UOP as one of
+many applications; the event of the server failing due to an error
+with one of these applications might result in SAS becoming
+temporarily unavailable.
+3. Specific requirements
+3.1. Functional requirements
+3.1.1. User class - Student
+This section is for UOP School of Computing Student
+1. Student registration form. Student can be register on the
+system and fill in all detail and forward to choose
+project/supervisor.
+2. Change Detail. Student can change detail if information is
+
+incorrect such as telephone number.
+3. Change Password. Student can change his login password at
+any time for security reason.
+4. Forget password. Student can request his password if he/she
+forgotten the password.
+3.1.2. User class - Academic Staff
+All staff can view the details of any student.
+3.1.4 User class - Unit Cohort co-ordinator
+Certain staff may be designated as Unit or Cohort Co-ordinators
+and can change the details of any student doing their unit or
+project cohort.
+Change Student Detail Unit Cohort co-ordinator can change
+student detail for incorrect information.
+View Student Detail
+Unit Cohort co-ordinator can view student information and
+monitor their progress.
+
+List Student
+Unit Cohort co-ordinator can list all students in different period of
+different group.
+Change Password
+Unit Cohort co-ordinator can reset the student's password if
+required.
+3.1.5 User class - System Administrator
+List Student
+System Administrator can list all students in different period of
+different group to check any error.
+Change Password
+System Administrator can reset the student's password if
+required.
+3.1.6 User class - Administration Staff
+List Student
+Administration Staff can list all students in different period of
+
+different group.
+3.2 Design constraints
+The system need to design base on the existed code and
+database using J2SE 5.0, J2EE 1.4 and Struts 1.2.x.
+3.3 Software system attributes
+3.3.1 Security
+The system needs to log client's information of registration such
+as IP address and time for security purpose. Password should
+encrypted and store in the database.
+3.3.2 Maintainability
+The system developing using Struts, all action is detailed in
+struts-config.xml and web.xml that easy to modify and make
+update.
+3.3.3 Portability
+The web application is coding in J2EE and Struts, therefore, it
+
+should be transferable between different OS and Java container.
+3.4 Other requirements
+For further extending, is able to send notification by SMS.
+
