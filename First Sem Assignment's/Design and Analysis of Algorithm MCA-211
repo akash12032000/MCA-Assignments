@@ -1150,5 +1150,100 @@ To solve this problem, it do not have to be in NP .	                            
 Do not have to be a Decision problem.	                                                                                                         It is exclusively a Decision problem.
 Example: Halting problem, Vertex cover problem, etc.	                                                                                         Example: Determine whether a graph has a Hamiltonian cycle, Determine whether a Boolean formula is satisfiable or not, Circuit-satisfiability problem, etc.
 
+Question 11. Discuss about the techniques to show the NP- Hardness in brief.
+
+Answer. A problem is in the class NPC if it is in NP and is as hard as any problem in NP. A problem is NP-hard if all problems in NP are polynomial time reducible to it, even though it may not be in NP itself.
+
+https://www.tutorialspoint.com/design_and_analysis_of_algorithms/images/np_hard.jpg
+
+If a polynomial time algorithm exists for any of these problems, all problems in NP would be polynomial time solvable. These problems are called NP-complete. The phenomenon of NP-completeness is important for both theoretical and practical reasons.
+
+Question 12. What is a vertex cover problem? Discuss Graham’s algorithm in detail.
+
+Answer.A vertex cover of an undirected graph is a subset of its vertices such that for every edge (u, v) of the graph, either ‘u’ or ‘v’ is in the vertex cover. Although the name is Vertex Cover, the set covers all edges of the given graph. Given an undirected graph, the vertex cover problem is to find minimum size vertex cover. 
+The following are some examples. Vertex Cover Problem is a known NP Complete problem, i.e., there is no polynomial-time solution for this unless P = NP. There are approximate polynomial-time algorithms to solve the problem though
+Naive Approach:
+
+Consider all the subset of vertices one by one and find out whether it covers all edges of the graph. For eg. in a graph consisting only 3 vertices the set consisting of the combination of vertices are:{0,1,2,{0,1},{0,2},{1,2},{0,1,2}} . Using each element of this set check whether these vertices cover all  all the edges of the graph. Hence update the optimal answer. And hence print the subset having minimum number of vertices which also covers all the edges of the graph.
+
+import java.io.*;
+import java.util.*;
+import java.util.LinkedList;
+
+class Graph
+{
+	private int V; // No. of vertices
+
+	
+	private LinkedList<Integer> adj[];
+
+	
+	Graph(int v)
+	{
+		V = v;
+		adj = new LinkedList[v];
+		for (int i=0; i<v; ++i)
+			adj[i] = new LinkedList();
+	}
+
+	void addEdge(int v, int w)
+	{
+		adj[v].add(w); // Add w to v's list.
+		adj[w].add(v); //Graph is undirected
+	}
+
+	void printVertexCover()
+	{
+		
+		boolean visited[] = new boolean[V];
+		for (int i=0; i<V; i++)
+			visited[i] = false;
+
+		Iterator<Integer> i;
+
+		for (int u=0; u<V; u++)
+		{
+			
+			if (visited[u] == false)
+			{
+				
+				i = adj[u].iterator();
+				while (i.hasNext())
+				{
+					int v = i.next();
+					if (visited[v] == false)
+					{
+					
+						visited[v] = true;
+						visited[u] = true;
+						break;
+					}
+				}
+			}
+		}
+
+	
+		for (int j=0; j<V; j++)
+			if (visited[j])
+			System.out.print(j+" ");
+	}
+
+
+	public static void main(String args[])
+	{
+		// Create a graph given in the above diagram
+		Graph g = new Graph(7);
+		g.addEdge(0, 1);
+		g.addEdge(0, 2);
+		g.addEdge(1, 3);
+		g.addEdge(3, 4);
+		g.addEdge(4, 5);
+		g.addEdge(5, 6);
+
+		g.printVertexCover();
+	}
+}
+
+Output. 0 1 3 4 5 6
 
 
