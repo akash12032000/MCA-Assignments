@@ -143,3 +143,14 @@ Example: Employees in a company are required to authenticate through the network
 v). 
 Hash Function is a function that has a huge role in making a System Secure as it converts normal data given to it as an irregular value of fixed length. We can imagine it to be a Shaker in our homes. 
 When we put data into this function it outputs an irregular value. The Irregular value it outputs is known as “Hash Value”.Hash Values are simply numbers but are often written in Hexadecimal. Computers manage values as Binary. The hash value is also data and is often managed in Binary. A hash function is basically performing some calculations in the computer. Data values that are its output are of fixed length. Length always varies according to the hash function. Value doesn’t vary even if there is a large or small value.  If given the same input, two hash functions will invariably produce the same output. Even if input data entered differs by a single bit, huge change in their output values. Even if input data entered differs huge, there is a very very minimal chance that the hash values produced will be identical. If they are equal it is known as “Hash Collision”.  Converting Hash Codes to their original value is an impossible task to perform. This is the main difference between Encryption as Hash Function.  
+
+
+Question 3. Explain the security measures and security policies of an online systems. 
+
+Answer. The single biggest thing you can do to protect a computer system from online threats is… don’t put it online. There’s a reason that “air-gapped” systems are often used for highly confidential information - if the bad guys can’t reach it, they can’t hack it.
+
+Otherwise, you want to minimize the “attack surface” of the system. All of the usual protections apply here - don’t run any unnecessary ports or services, put a firewall up between the system and the big bad Internet, make sure all software (and firmware) is up-to-date, and configure the system so the users (or unauthorized processes) can’t install extra software.
+Security policies are written guidelines related to security- from physical to information. The procedures are the things done to ensure policies are followed and controls implemented to support the policies.
+
+Question 4. Why is Cyberlaws needed? How can cyberspace be regulated? Explain the cyberspace
+regulation in India
