@@ -1,0 +1,85 @@
+Question 1. List and explain any ten security breaches in the Cyberspace. How can these breaches be handled with the use of technology?
+
+Answer. 
+1. Microsoft 
+
+In a January 2020 blog post, Microsoft said that an internal customer support database on which the company stored anonymized user analytics had been accidentally exposed online. 
+The post was somewhat understated. Over 250 million Microsoft customer records, spanning 14 years, were exposed online without any password protection. The naked database was discovered—and reported to Microsoft—by Bob Diachenko, a security researcher with Security Discovery.
+Microsoft blamed the accidental server exposure on misconfigured Azure security rules the company deployed on Dec. 5, 2019. 
+Upon learning of the gaffe, Microsoft engineers quickly remediated the configuration to prevent unauthorized access to the database. The company expressed confidence that its commercial cloud services were not exposed.
+The 2020 data breach exposed email addresses, IP addresses, and other details stored in a support case analytics database. (Microsoft says that no other personal information was stored in the database.)
+
+2. Estee Lauder
+
+In February, security researcher Jeremiah Fowler came upon a massive online database belonging to cosmetics giant Estee Lauder.  According to Fowler, the unsecured database exposed confidential information stored in over 440 million customer records. 
+
+No payment information or other sensitive data was found to be unprotected, but email addresses, IP addresses, ports, pathways, and storage information was there for the taking, by anyone who wanted it.
+
+A spokesperson for Estée Lauder blamed the 2020 data exposure middleware security failures. That may have provided a way for malware to access applications, data, and systems. Apparently, the database was part of an “education platform” that didn’t contain any consumer data. The company maintains there was no evidence of any unauthorized use of the data.
+
+3. MGM Resorts
+Also in February, someone in a hacking forum leaked personal information about more than 10.6 million guests of MGM Resorts hotels.
+
+The leaked contact information for millions of former hotel guests included records of celebrities that included Justin Bieber, Twitter CEO Jack Dorsey, and a number of government officials. MGM insists that no credit card information or passwords were exposed in the data breach.
+
+Incredibly, this is not the first time confidential information about MGM guests had been openly published online. In mid-2019, MGM employees noticed there had been unauthorized access of a corporate server. That very same day, the stolen information started appearing in a number of hacking forums.
+
+4.Facebook
+In April, 2020, around the time COVID-19 protocols were starting to take effect, more than 267 million Facebook profiles popped up for sale on the Dark Web—for the princely sum of $600. 
+
+The pirated profiles were traced back to a data leak discovered in December, but with additional PII (personally identifiable information), including phone numbers and email addresses. 
+
+The leaked information would make it possible for cybercriminals to launch spear-phishing campaigns designed to collect Facebook user passwords through bogus email campaigns or SMS texts disguised as official communications from Facebook.
+
+5. Zoom
+In April of 2020, when stay-at-home orders were turning millions into teleworkers, use of video conferencing apps rocketed—with Zoom the primary beneficiary of the increased demand.
+
+As record numbers of workers flocked to Zoom, cyber attackers were able to breach the credentials of over 500,000 Zoom teleconferencing accounts and post them for sale on the dark web for as little as $.02, or simply give the records away on various hacker forums. 
+
+Evidence suggests that hackers canvassed dark web databases for previously compromised login credentials dating back to 2013. The tendency of users to recycle passwords gave the hackers easy access to many new Zoom accounts created by people who saw nothing wrong with reusing their dog’s name spelled backwards for their Zoom password.
+
+Hackers quickly used the compromised passwords to launch credential stuffing attacks that gave them access to even more accounts. The end result? The “zoombombing” of remote workplace meetings by individuals possessing stolen credentials—malcontents who would log into live streaming meetings and create chaos in a variety of ways, including screensharing of disturbing images from pornography and shock videos.
+
+Zoom responded by hiring intelligence firms to locate these password dumps and shut down thousands of websites designed to fool users into downloading malware or ceding their credentials. 
+
+6. Magellan Health
+April 2020 saw Healthcare giant Magellan Health fall victim to a phishing scam plus ransomware attack that affected 365,000 patients across eight affiliates and healthcare providers. 
+
+The sophisticated 2020 cyber attack started with a phishing scheme to impersonate clients, a ruse that gave criminals access to a single corporate server on which to deploy malware that yielded sensitive patient details that included W-2 data and Social Security or Taxpayer ID numbers—information that could be ransomed for large sums of money
+
+7. Cognizant 
+Also in April, the Maze group launched a ransomware attack on Cognizant Technology Solutions (CTS), causing a disruption of services to the company’s clients. 
+
+Confirming the data breach on its website, Cognizant said it had taken steps to contain the incident and notified clients about the attack as well as the measures it was taking to ensure protection. 
+
+In a typical ransomware attack, cybercriminals infect a target company’s systems with a virus and demand payment for returning the data to a usable state. In the case of Cognizant, the Maze attackers demanded payment of a ransom to prevent it from publishing the breached information online.
+
+In June, Cognizant, one of the largest IT managed services enterprises, announced that hackers had stolen customer information in a ransomware attack a few months earlier. The personal information taken in the heist included names, Social Security numbers, tax identification numbers, financial account information, driver’s licenses, and passport information.
+
+8. Nintendo
+In April, Nintendo originally reported that 160,000 users were affected by a mass account hijacking that leveraged the company’s NNID legacy login system. The hijacking gave data hackers access to payment services linked to these accounts, including PayPal accounts or credit cards the cybercriminals used to make unsolicited digital purchases. (Reports indicate that these attacks went on for weeks.)
+
+Nintendo responded by shutting down all NNID logins and asking Switch owners to lock down their accounts. 
+
+The gaming giant admitted that the attack may have exposed private information that included nicknames, email addresses, dates of birth and gender. While confirming that purchases were made through user accounts, Nintendo maintains that credit card data itself was not accessed.
+
+Security experts suspect that weak passwords are to blame. Hackers took advantage of vulnerabilities associated with legacy accounts that used Nintendo Network ID (NNID) for older platforms such as Wii U and 3DS.  Designed for setup with the system’s original screen keyboards, NNID made it difficult for users to create strong passwords. (The current system allows users to create account profiles on a web browser.) To prevent additional breaches, Nintendo posted a tweet instructing members to enable 2-step authentication.
+
+9. Twitter  
+In July, social media powerhouse Twitter suffered an unprecedented hacking of celebrity accounts as the result of an audacious spear-phishing attack targeting Twitter employees. 130 accounts were hijacked, including the social media platforms of Barack Obama, Kanye West, Elon Musk, Joe Biden and Bill Gates.
+
+Cybercriminals used the hacked accounts to publish a bitcoin scam while also gaining access to these individuals’ direct messages. Reportedly, the scammers netted more than $100,000 from people who had no reason to question why a celebrity would tweet:
+
+“I’m giving back to the community. All bitcoin sent to the address below will be sent back doubled! If you send $1000, I will send back $2000. Only doing this for 30 minutes.”
+
+Bitcoin tweets were published from 45 of the 130 targeted accounts. (The contents of DM messages were accessed on 36 of the accounts and Twitter data was downloaded from seven.) The cyber attack started with calls to Twitter employees by hackers posing as colleagues who needed credentials to internal systems. The trusting employees granted the callers access to the company’s internal support system, enabling the scammers to target additional employees. 
+
+10. Whisper 
+This past March, hackers posted the contents of a database containing 900 million Whisper posts, along with metadata related to the anonymous social media posts. In promoting its eponymous “secret-sharing” app, Whisper likes to refer to itself as the “safest place on the Internet”. 
+
+That tagline might need a refresh after cyberthieves exposed all of the PII belonging to Whisper users, including personal confessions, ages, locations and other details—allowing anyone to access all of the content tied to anonymous “whispers” posted to the app.
+
+The exposed records don’t provide any real names but they do include a great deal of demographic information such as the stated age of users, ethnicity, gender, hometown, nickname and any membership in groups, including many devoted to sexual confessions and discussions regarding sexual orientation and desires.
+
+The database was discovered by independent researchers who reported that they were able to access a staggering 900 million user records dating from the original app release in 2012 to the present day. 
+
