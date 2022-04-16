@@ -305,3 +305,110 @@ Disk forensics: This branch of forensics extracts data from storage media by sea
 
 iv). 
 This work contributes for an understanding of cyber crime investigation methodology and its prosecution in India.Alsoit covers investigation mechanism and various methodologies carried out by police department and Indian judicial system. Methods/Statistical Analysis: By the method of questioning and gathering of information, cyber crime investigation begins; after that computer forensic tool is used to find the criminal and also the amount of damage caused to data. Once the evidences are collected it has to be protected without any loss to the originality. The evidences which are collected by the investigating officer should organise it and finally submit the report for prosecution. Findings: According to cyber crime cases in India,it lacks technical experts in handling the cases. Technically trained police officers are very less. There is a lacuna in judicial department also. The second major issue is Judicial Jurisdiction in handling cyber crime cases. Judicial and police officers are to be trained regularly. Information Technology Act to be modified and severe punishment to be given to the criminals. Most of the sections in IT Act having minimum punishment only which has to be changed. Application/Improvements: Establishment of cyber crime police stations and cyber forensic labs throughout the country is the need of the hour. By realising the seriousness of this emerging crime government should take steps in improving the technology in handling the Hi-tech crimes.
+
+Question 6. Explain the copyright issues in the context of digital medium, music and goods with the help of an example.
+
+Answer. 
+Challenges faced by Copyright in Digital World
+Copyright & Internet
+Multimedia Work
+Software
+Social Media
+Copyright and Internet
+The Internet has been one of the major threats to copyright for a long time. The information available on the internet has varying degrees of copyright protection. Copyrighted works on the internet include news, stories, images, graphics, e-books, screenplay, videos etc. The ocean of information available on the internet makes it difficult to determine whether the work is duplication or copy of the protected work. It is a common myth that the information accessed via the internet on a public domain can be copied freely. However it not so, unless the information has been made available by the government, or the term for copyright has expired, or the holder of the copyright has surrendered his right.
+
+Infringement of Copyright in Cyberspace includes
+Downloading and uploading
+Internet has been a medium of downloading software or files to the hard disk of one`s computer. Downloading involves creating a copy or reproducing the copy of the material available on the internet. However, there are certain restrictions which have to be complied with and the failure of which might result in offence.
+
+Derivative work
+If two or more programmes are compiled to create a derivative work then in such cases it amounts to infringement or violation of Copyright.
+
+Hot-linking
+It involves displaying an image on the website by linking to website hosting that image. This process of hot-linking or linking can also tend to violate the rights of a copyright owner.
+
+Audio-video works
+Copying an audio or video file through companies that are involved in Peer to Peer file sharing (P2P) of any digital music shall also amount to a violation.
+
+Multimedia work
+The concept of multimedia is extremely wide and encompasses within itself several categories of material which includes text, sounds, audio, video, images, graphics, presentations, live videos of speech and performances and so on.
+
+Generally, Copyright protection is available to multimedia under literary (software program), artistic (images), cinematographic films (films or videos), dramatic (plays), sound recording (musical works) and photographs. Protection of rights of the creators and owner of the Copyright becomes difficult due to the variety of rights available to copyright owners under the ambit of multimedia.
+
+Infringement in multimedia involves
+Copying the works of a creator without his permission
+Distributing multimedia product other than for  educational purposes
+Creating prints of literary or artistic works without prior permission of the creators
+Dubbing and selling, through any of multimedia products a sound recording without the prior permission of its creator.
+Software
+Computer Software consists of a collection of computer programmes, procedure, documentation that perform tasks on a computer system. Software piracy is one of the major reasons for copyright infringement. It involves unauthorised copying, distributing of copyrighted software. Software Piracy involves:
+
+Creating a copy and selling it
+Creating a copy and exporting the same
+Renting the software
+Selling of computer hardware machines with pre-installed or per-loaded pirated software
+Copying of software programs using CD-R technology
+Social Media
+These days Social Media platforms have become one of the prominent modes of connecting people across the globe. These platforms involve sharing of works which may be copyrighted. The widespread practice of sharing materials such as images, photographs on Social Media has resulted in gross infringements of copyrights. The false notion that all material posted on social media is free, fed by an ignorance of the presence of copyright in such works is a major cause of such infringements. Copyright violations on Social media platforms can be in the form of:
+
+Re-posting, saving or sharing of works protected under Copyright
+Re-posting and calming ownership or creation rights of already protected work
+Using the content available on the platform without the owner`s prior permission
+Fair Dealing in Digital Environment
+The protection sought to be given to the creator or the owner of copyright must be in conformity with the public rights. The human rights of a person should not be used to curtail those of another. It is because of this that the concepts of Fair Dealing or Fair Use have evolved in Copyright. The most important convention in this domain has been the Berne Convention 1883, according to Art 9 (2) of which “It shall be the matter of legislation in the countries of the union to permit the reproduction of such work in certain cases, provided that such reproduction does not conflict with normal exploitation of the work and does not legitimate the interest of the author.” Similarly, Article 13 of the TRIPS agreement states, “Members shall confine limitations  or exceptions to exclusive rights to certain special cases which do not conflict with the normal exploitation of the work and do not unreasonably prejudice the legitimate interest of the right holder.”Different countries across the globe have different laws on copyright exception. In the United States of America, Copyright exception is known as “FAIR USE” is engrained in section 107 of the Copyright Act. It reads that Fair Use of Copyright does not amount to infringement. Similarly European Union Directive, 2001/29/EU has laid down a list of compulsory and optional exceptions and directives, while 2012/28/EU provides for principles of orphan works (the works the owner of which is not identified). In India section 52 of the Copyright Act, 1957 lays down provisions relating to acts which would not constitute a Copyright infringement.  Listed below are some acts which shall not be considered as an infringement in Digital World:
+
+Conducting Research or study and making copies of the material available on the internet for the sole purpose of studying
+A teacher making use of content from a film to make certain satirical points during class
+Access to a journal from University  website or library
+To make backup copies on Hard Drive as temporary  protection against any loss, destruction or damage
+The observation study or test of the functioning of a computer programme in order to determine the ideas and principle which underline any elements of the programme in order to determine the ideas or principles which underlies the element of the programme while performing acts that are necessary for the functioning of a computer programme
+Making copies or adaption of computer programme from a personally legally occupied copies for non-commercial purposes
+Using CD, DVD, pen drive or any multimedia devise for playing songs in an enclosed room or hall meant for the common use of residents in any residential premises or as a part of any club activity for non-profit purposes
+Publication of any speech delivered in public
+Reproduction or publication of any electronic reports of any committee, council, body or institution established by an Act of the legislature or by state or central government.
+Remedies against infringement of Copyright in Digital Domain
+The threats of infringement of Copyright in the digital domain have given rise to certain preventive measures which ensure that the rights and interest of the owner or creators are protected. Some of the important remedies available are:
+
+Blockchain Technology
+It is highly secured decentralised public ledger that is used to record peer to peer transaction. In each transaction that occurs, the parties agree to details to encode it into the block of digital data which is uniquely signed or identified. It is due to its functioning that it is considered an excellent technology to resolve the problem of copyright in Digital Domain
+
+Digital Watermarks
+One of the easiest ways to protect the work of the creator of Copyright as it helps the owner to trace his work and prevent it from duplication. In this technique, a watermark is embedded in the original work of the author in this way the unauthorised copying of the work can be detected.
+
+Access control and copy control
+It is a software which enables a user to check the creator on free or illegal use of his work.
+
+International Treaties and Conventions protecting Copyright in Digital Domain
+Digitalisation has a great impact on society. But as it is rightly said that with great inventions comes a great threat, similarly digitalisation, while having played a major role in changing the dynamics of  society, has also given rise to several other problems like infringement of rights of an creator or owner of the work( in copyright context) through various means in digital world. In order to keep a check against infringement of these rights, International organisations like World Intellectual Property Organisation (WIPO) have played a major role.
+
+Listed below are some of the important International treaties and conventions-
+
+World Copyright Treaty 1996
+It is a special agreement under the Berne Convention that deals with the protection of works in the Digital environment. In addition to the rights recognised by the Berne Convention 1885 they are granted three economic rights namely, right to distribution, right to rental and right to communication to the public. It assures protection for any work in the digital world for a period of at least 50 years. The treaty also deals with two subject matters that shall be protected by Copyright and they are
+
+Computer Programs
+Compilation of data or material (databases)
+WIPO Performance of Phonogram treaty 1996
+This treaty deals with two kinds of beneficiaries in the digital world, firstly the performers namely actors, singers, musicians etc., secondly producers of phonograms. It also lays down the economic rights of distribution, renting and communication by the performers with the public and for the producers of phonograms the economic rights of reproduction, right of distribution, right of rental and right of making available. The treaty assures protection to the performers and producer of phonograms for a period of at least 50 years.
+
+Copyright in Digital Era with special reference to India
+Copyright in India is protected under Copyright Act,1957 since then several amendments have been made from time to time to suit the changing needs of the society and to ensure protection to the creators of the work. The main aim of the act is to protect the works of the creators and owners of the copyright against unauthorised use. Recently the Copyright (Amendment) Act, 2012 was enacted which is considered to be more substantial. The main reason behind this enactment was to bring the act in conformity with World Copyright Treaty 1996 and WIPO Performance and Phonogram Treaty 1996.  The Copyright Amendment Act of 2012 extended its provisions for the protection of copyright in work in the field of digitalisation. It also laid down provisions for penalties to be awarded against the infringer, rights of management information, the liability of internet service providers and introduction of statutory licenses for cover version and broadcasting organiser. It also aimed at ensuring proper distribution of royalties amongst the creators and owners of the work. The law also aimed at creating certain acts as exceptions, which means that certain acts shall not amount to infringement. Section 52 of the act lays down certain acts which shall fall under the heading of Doctrine of Fair Use. This section is enacted in conformity with the Berne Convention 1885, TRIPS Agreement 1995. The Indian Judiciary has also has played a pivotal role in protecting the rights of Copyright owners in the era of digitalisation. Latest judicial pronouncements in a matter pertaining to the protection of copyright in the digital world are listed below-
+
+UTV Software Communication Ltd v/s 1337x and ors on 10th April 2019-Delhi HC
+Facts of the Case-
+
+In this case, the plaintiff including UTV software communication Ltd are the companies engaged in creating content, producing and distributing cinematographic films all over the world including India. The defendants were 30 websites including some John Doe websites, the Ministry of Electronic and Information Technology, Department of Telecom and various ISP`s. It was contented by the plaintiff that defendants’ websites hosted and provided access to their copyrighted work which resulted in infringement of Copyright of the plaintiff.
+
+The Court, in this case, appointed Mr Hemant Singh as ‘amicus curiae’ to assist the court in determining the questions of law in the instant case.
+
+Judgement
+
+The Judgement in the instant case can be understood with reference to the issues involved in this case
+
+Whether an infringer of Copyright on the Internet is to be treated differently from Infringer in the physical world?
+
+The court answering it negatively held that there is no reason why crime in the physical world is not a crime in the digital world especially when the Copyright Act does not make any such distinction.
+
+Whether seeking blocking of a website dedicated to piracy makes one an opponent of free and open internet?
+
+The court opined that key issue about Internet freedom, therefore is not whether the internet is and should be completely free or whether the government should have unlimited censorship authority, but rather where the appropriate lines should be drawn, how they are drawn and how they are implemented.
