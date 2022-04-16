@@ -202,5 +202,106 @@ Some Other Crimes
 # E-Mail Bombing
 # E-Mail abuse etc.
 
+Question 5. : Explain the following with the help of suitable examples (20 Marks)
+(i) Cybercrimes and its classification
+(ii) Penalties and Compensation against cyber crimes
+(iii)Cyber forensic
+(iv)Cybercrime investigation
 
 
+Answer. 
+
+1. Against Individuals: These include e-mail spoofing, spamming, cyber defamation, cyber harassments and cyber stalking. 2. Against Property: These include credit card frauds, internet time theft and intellectual property crimes. 3. Against Organisations: These include unauthorized accessing of computer, denial Of service, computer contamination / virus attack, e-mail bombing, salami attack, logic bomb, trojan horse and data diddling. 4. Against Society: These include Forgery, CYber Terrorism, Web Jacking. Classification Of Cyber Crimes Cyber crimes can be classified in to 4 major categories as the following:
+
+(1) Cyber crime against Individual       (2) Cyber crime Against Property (3) Cyber crime Against Organization  (4) Cyber crime Against Society  
+
+(1) Against Individuals (i) Email spoofing : A spoofed email is one in which the e-mail header is forged so that the mail appears to originate from one source but actually has been sent from another source. (ii) Spamming : Spamming means sending multiple copies of unsolicited mails or mass e-mails such as chain letters. (iii) Cyber Defamation : This occurs when defamation takes place with the help of computers and/or the Internet. E.g. someone publishes defamatory matter about someone on a website or sends e-mails containing defamatory information. (iv) Harassment & Cyber stalking : Cyber Stalking Means following an individual's activity over internet. It can be done with the help of many protocols available such as e- mail, chat rooms, user net groups.   (2) Against Property (i) Credit Card Fraud : As the name suggests, this is a fraud that happens by the use of a credit card. This generally happens if someone gets to know the card number or the card gets stolen. (ii) Intellectual Property crimes : These include Software piracy: Illegal copying of programs, distribution of copies of software. Copyright infringement: Using copyrighted material without proper permission. Trademarks violations: Using trademarks and associated rights without permission of the actual holder. Theft of computer source code: Stealing, destroying or misusing the source code of a computer. (iii) Internet time theft : This happens by the usage of the Internet hours by an unauthorized person which is actually paid by another person.
+
+(3) Against Organisations (i) Unauthorized Accessing of Computer: Accessing the computer/network without permission from the owner. It can be of 2 forms: a) Changing/deleting data: Unauthorized changing of data. b) Computer voyeur: The criminal reads or copies confidential or proprietary information, but the data is neither deleted nor changed. (ii) Denial Of Service : When Internet server is flooded with continuous bogus requests so as to denying legitimate users to use the server or to crash the server. (iii) Computer contamination / Virus attack : A computer virus is a computer program that can infect other computer programs by modifying them in such a way as to include a (possibly evolved) copy of it. Viruses can be file infecting or affecting boot sector of the computer. Worms, unlike viruses do not need the host to attach themselves to. (iv) Email Bombing : Sending large numbers of mails to the individual or company or mail servers thereby ultimately resulting into crashing. (v) Salami Attack : When negligible amounts are removed & accumulated in to something larger. These attacks are used for the commission of financial crimes. (vi) Logic Bomb : It is an event dependent program. As soon as the designated event occurs, it crashes the computer, release a virus or any other harmful possibilities. (vii) Trojan Horse : This is an unauthorized program which functions from inside what seems to be an authorized program, thereby concealing what it is actually doing. (viii) Data diddling : This kind of an attack involves altering raw data just before it is processed by a computer and then changing it back after the processing is completed.   (4) Against Society (i) Forgery : Currency notes, revenue stamps, mark sheets etc. can be forged using computers and high quality scanners and printers. (ii) Cyber Terrorism : Use of computer resources to intimidate or coerce people and carry out the activities of terrorism. (iii) Web Jacking : Hackers gain access and control over the website of another, even they change the content of website for fulfilling political objective or for money.
+
+ii). 
+Introduction:-
+
+Like every other invention in history, the internet came with its advantages and disadvantages. Little did the founding fathers know that their creation will be used someday to harm and destroy someone. Today, various dangerous things are happening in cyberspace. Using the web with criminal intent is known as cybercrime. 
+The term “cybercrime” is not defined under any statute in India. But in the wider sense, it could mean, any activity done with criminal intent in cyberspace, where the computer could be a tool as well as the victim. Sometimes, these crimes are committed for generating profits, sometimes it is done to damage software and at other times it is done to ship malware into a system that enters other machines and spreads to the whole network in no time. Cybercrime could involve traditional criminal activities like theft, fraud, mischief, forgery, or defamation which are subject to the Indian Penal Code, 1860; and the new age crimes are subject to the Information Technology Act, 2000. 
+
+Cybercrimes can be divided into two categories broadly;
+1.Where the computer is used as a weapon. Such crimes are- cyber terrorism, credit card fraud, IPR violations, pornography
+2.Where the computer is the target. Such crimes include the use of one computer to damage another one like launching virus, hacking, DOS attacks
+
+There are various types of cybercrimes which are divided into mainly 3 headings based on their target-
+1.Cybercrimes against person such as pornography, defamation, harassment via mail, email bombing, cyberstalking, cyber extortion, etc. These are the most important cybercrimes known today and are capable of causing potential harm to humanity. 
+2.Cybercrimes against property such as cyber vandalism, data theft, transmitting the virus, unauthorized computer trespassing, IPR infringement, credit card frauds, etc
+3.Cybercrimes against the government are like cyber terrorism. Cyberspace is misused by individuals and certain groups to threaten international governments and their citizens by cracking the official governmental or military websites.
+
+Significant Cyber Crimes:-
+
+Cyber extortion- This crime involves an attack or a threat to attack to demand extortion money. One such type is a ransomware attack. Cybercriminals hack into the network of an organization and make any potential data or documents inaccessible until a ransom is paid. 
+Identity theft- This crime constitutes an attack where an individual trespasses into a computer to extract the personal information of the user like banking details, credit card number, identity card number, personal health details, etc. Such information is bought and sold on the dark web for profits and is often used to commit frauds and making unauthorized transactions. 
+
+Cyber espionage- Under this crime, individuals or groups hacks into the system and gather confidential information from the government or any organization. It constitutes every type of attack from destroying the data to modifying it or using system-connected devices like a webcam to spy on an individual or monitoring the email, messages, and other connections.
+
+Software piracy- This is one of the most common cybercrimes today which involves unauthorized use, unlawful copying, or distribution of such copy. This is often done for personal or commercial gain. IPR infringement, counterfeiting, internet piracy are some of its examples.
+
+Exit scam- The digital version of this old scam involves the transfer of virtual currency held in marketplace escrow accounts to the accounts of dark web administrators. 
+
+DDoS (Distributed Denial of Service) attacks- This type of attack is performed by using the organization’s protocol and taking advantage of its limits to shut down the server by overwhelming its capacity to respond to communications. These attacks are generally carried out for malicious purposes or committing mischief and sometimes to divert the attention of the targeted network from another attack.
+
+Phishing attacks- This is the technique for acquiring sensitive information like login details, passwords, credit card details, company data, etc. of a user by sending fraudulent messages (mostly emails) that appear to be coming from a trustworthy and reputable source.  
+
+Cyber Laws in India:-
+
+“Every action and reaction occurring in the cyberspace has some legal and cyber legal perspectives”. The term “cyberlaw” is used to address the legal issues occurring in cyberspace. It is an integration of various laws to deal with and resolve such issues and challenges posed by humanity on the web every day.
+As cybercrime is a field still developing towards specialization, there is absolutely no comprehensive law to deal with it, anywhere in the world till date. But Government of India has the Information Technology Act, 2000 in force to regulate the malicious activities on the web that violate the rights of an internet user. At times, one may find that there are provisions of the IPC and IT Act that penalize such activities overlap each other. 
+
+Penalties under Cyber Crimes:-
+
+Section 43 and 66 of the IT Act punishes a person committing data theft, transmitting virus into a system, hacking, destroying data, or denying access to the network to an authorized person with maximum imprisonment up to 3 years or a fine of rupees 5 lacs or both. At the same time data theft is also punishable under Section 378 and Section 424 of IPC with maximum imprisonment of 3 years or fine or both; and imprisonment of 2 years or fine or both respectively. Denying access to an authorized person or damaging a computer system is penalized under Section 426 of IPC with imprisonment of up to 3 months or fine or both.
+
+Tampering with computer source documents is a punishable offence under Section 65 of the IT Act. Section 66E provides the punishment for violation of privacy. It states that if any person captures, publishes, or distributes an image of a private area of a person without his/her consent has committed a breach of privacy and is punishable with imprisonment up to 3 years or a fine up to 2 lacs or both.
+
+Section 66F covers a crucial matter which is cyber terrorism and prescribes punishment for the same. It provides the acts which constitute cyber terrorism like denial of access or penetrating through a network or transmitting virus/malware utilizing which he is likely to cause death or injury to any person, which is all done with the purpose to threat the integrity, sovereignty, unity, and security of India or create terror in the minds of its citizen.
+
+Section 66B of the IT Act and Section 411 of IPC deal with the offense of dishonestly receiving stolen computer resources or devices. Section 66C of the IT Act prescribes punishment for identity theft and states that any person who uses the identity credentials of a person for fraud or in a dishonest manner is liable for punishment with imprisonment up to 3 years and a fine up to Rupees 3 lacs. Cheating by personation using a computer resource is punishable under Section 66D of the IT Act. Similar provisions for these offenses are given under IPC under Section 419, 463, 465, and 468. IT Act not only punishes persons but corporate as well if they fail to implement and maintain a reasonable and diligent mechanism to protect the sensitive data of any person in their possession. Such a body corporate is liable to pay compensation to the aggrieved person who has suffered a loss due to the negligence of the corporation.
+
+Apart from the provisions for punishment, the IT Act also empowers the Central Government to issue directions to block access of any information on an intermediary or computer resource for the public, if it feels necessary in the interest of the State. It can also intercept, decrypt or monitor such information.
+
+iii). 
+Cyber forensics is a process of extracting data as proof for a crime (that involves electronic devices) while following proper investigation rules to nab the culprit by presenting the evidence to the court. Cyber forensics is also known as computer forensics. The main aim of cyber forensics is to maintain the thread of evidence and documentation to find out who did the crime digitally. Cyber forensics can do the following:
+
+It can recover deleted files, chat logs, emails, etc
+It can also get deleted SMS, Phone calls.
+It can get recorded audio of phone conversations.
+It can determine which user used which system and for how much time.
+It can identify which user ran which program.
+
+Why is cyber forensics important?
+in todays technology driven generation, the importance of cyber forensics is immense. Technology combined with forensic forensics paves the way for quicker investigations and accurate results. Below are the points depicting the importance of cyber forensics:
+
+Cyber forensics helps in collecting important digital evidence to trace the criminal.
+Electronic equipment stores massive amounts of data that a normal person fails to see. For example: in a smart house, for every word we speak, actions performed by smart devices, collect huge data which is crucial in cyber forensics.
+It is also helpful for innocent people to prove their innocence via the evidence collected online.
+It is not only used to solve digital crimes but also used to solve real-world crimes like theft cases, murder, etc.
+Businesses are equally benefitted from cyber forensics in tracking system breaches and finding the attackers.
+
+How did Cyber Forensics Experts work?
+Cyber forensics is a field that follows certain procedures to find the evidence to reach conclusions after proper investigation of matters. The procedures that cyber forensic experts follow are:
+
+Identification: The first step of cyber forensics experts are to identify what evidence is present, where it is stored, and in which format it is stored.
+Preservation: After identifying the data the next step is to safely preserve the data and not allow other people to use that device so that no one can tamper data.
+Analysis: After getting the data, the next step is to analyze the data or system. Here the expert recovers the deleted files and verifies the recovered data and finds the evidence that the criminal tried to erase by deleting secret files. This process might take several iterations to reach the final conclusion.
+Documentation: Now after analyzing data a record is created. This record contains all the recovered and available(not deleted) data which helps in recreating the crime scene and reviewing it.
+Presentation: This is the final step in which the analyzed data is presented in front of the court to solve cases.
+Types of computer forensics
+There are multiple types of computer forensics depending on the field in which digital investigation is needed. The fields are:
+
+Network forensics: This involves monitoring and analyzing the network traffic to and from the criminal’s network. The tools used here are network intrusion detection systems and other automated tools.
+Email forensics: In this type of forensics, the experts check the email of the criminal and recover deleted email threads to extract out crucial information related to the case.
+Malware forensics: This branch of forensics involves hacking related crimes. Here, the forensics expert examines the malware, trojans to identify the hacker involved behind this.
+Memory forensics: This branch of forensics deals with collecting data from the memory(like cache, RAM, etc.) in raw and then retrieve information from that data.
+Mobile Phone forensics: This branch of forensics generally deals with mobile phones. They examine and analyze data from the mobile phone.
+Database forensics: This branch of forensics examines and analyzes the data from databases and their related metadata.
+Disk forensics: This branch of forensics extracts data from storage media by searching modified,  active, or deleted files.
+
+iv). 
+This work contributes for an understanding of cyber crime investigation methodology and its prosecution in India.Alsoit covers investigation mechanism and various methodologies carried out by police department and Indian judicial system. Methods/Statistical Analysis: By the method of questioning and gathering of information, cyber crime investigation begins; after that computer forensic tool is used to find the criminal and also the amount of damage caused to data. Once the evidences are collected it has to be protected without any loss to the originality. The evidences which are collected by the investigating officer should organise it and finally submit the report for prosecution. Findings: According to cyber crime cases in India,it lacks technical experts in handling the cases. Technically trained police officers are very less. There is a lacuna in judicial department also. The second major issue is Judicial Jurisdiction in handling cyber crime cases. Judicial and police officers are to be trained regularly. Information Technology Act to be modified and severe punishment to be given to the criminals. Most of the sections in IT Act having minimum punishment only which has to be changed. Application/Improvements: Establishment of cyber crime police stations and cyber forensic labs throughout the country is the need of the hour. By realising the seriousness of this emerging crime government should take steps in improving the technology in handling the Hi-tech crimes.
