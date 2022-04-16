@@ -443,3 +443,73 @@ void main()
     }
   
 }
+
+
+Question 9.  Write a program in Python Program to display the Fibonacci Sequences up to nth term where n is provided by the user
+
+Answer. 
+num = int(input("Enter the Number:"))
+n1, n2 = 0, 1
+print("Fibonacci Series:", n1, n2, end=" ")
+for i in range(2, num):
+    n3 = n1 + n2
+    n1 = n2
+    n2 = n3
+    print(n3, end=" ")
+
+print()
+
+Question 10. Write a Program in Python that Accepts a Sentence and Calculate the Number of Digits, Uppercase and Lowercase Letters
+
+Answer. 
+def string_test(s):
+    d={"UPPER_CASE":0, "LOWER_CASE":0}
+    for c in s:
+        if c.isupper():
+           d["UPPER_CASE"]+=1
+        elif c.islower():
+           d["LOWER_CASE"]+=1
+        else:
+           pass
+    print ("Original String : ", s)
+    print ("No. of Upper case characters : ", d["UPPER_CASE"])
+    print ("No. of Lower case Characters : ", d["LOWER_CASE"])
+
+string_test('The quick Brown Fox')
+
+
+Question 11. Create a module series.py containing functions to determine Fibonacci series and Exponential
+series. Import the module created to make it accessible, and Call the functions of that module with module
+name . Demonstrate the access of functions in the module created. 
+
+Answer. 
+def fib_iter(n,x):
+    a=1
+    b=1
+    
+     # initialize sum of series
+    sum = 1.0
+    for i in range(n, 0, -1):
+        sum = 1 + x * sum / i
+    print ("e^x =", sum)
+    
+    if n==1:
+        print('0')
+    elif n==2:
+        print('0','1')
+    else:
+        print("Iterative Approach: ", end=' ')
+        print('0',a,b,end=' ')
+        for i in range(n-3):
+            total = a + b
+            b=a
+            a= total
+            print(total,end=' ')
+        print()
+        return b
+         
+fib_iter(5,1.0)
+
+Output: e^x = 2.716666666666667
+Iterative Approach:  0 1 1 2 3 
+
