@@ -513,3 +513,58 @@ fib_iter(5,1.0)
 Output: e^x = 2.716666666666667
 Iterative Approach:  0 1 1 2 3 
 
+
+Question 12. Differentiate Between Modules and Scripts, give suitable python code for each
+
+
+Answer. A script is a Python file that's intended to be run directly. When you run it, it should do something. This means that scripts will often contain code written outside the scope of any classes or functions. A module is a Python file that's intended to be imported into scripts or other modules
+
+What's a script?
+A script or program is a .py file that's meant to be run directly.
+
+Here's an extremely simple script that prints out "Howdy user":
+
+print("Howdy user")
+If that file was called hello.py, we could run it from the command-line like this:
+
+$ python3 hello.py
+Howdy user
+
+What's a module?
+A module is a .py file that's meant to be imported by other .py files. Modules should contain helpful functions, classes, or variables pointing to useful data.
+
+Here's a module that has a single function, greet, within it:
+
+def greet(name):
+    print("Howdy", name)
+If this module was named salutations.py, we could import and use the greet function within it from the REPL like this:
+
+>>> import salutations
+>>> salutations.greet("Trey")
+Howdy Trey
+Or we could import our salutations module (and use its greet function) within our hello.py file:
+
+from salutations import greet
+
+name = input("What would you like me to call you? ")
+print("Noted!")
+greet(name)
+This way when hello.py is run, the user will be prompted to enter their name and then the greet function (which lives in the salutations module) will be run:
+
+$ python3 hello.py
+What would you like me to call you? Trey
+Noted!
+Howdy Trey
+
+Question 13. Differentiate Between Co-routines and Sub-routines, give suitable python code for each
+
+Answer. 
+
+Subprograms	                                                                                       Coroutines
+A subprogram executes completely when called.                                                      A coroutine executes partially when called.
+Each time a subprogram is called, it begins execution from the beginning of the subprogram.        A coroutine resumes execution from the point at which the execution was previously suspended.
+There is a master-slave relationship between a caller and callee subprogram.                       Both caller and callee coroutines are treated on an equal basis and no master-slave relationship is present.
+A subprogram has a single entry point.                                                             A coroutine can have multiple entry points.
+A subprogram is not history sensitive.                                                             A coroutine must be history sensitive.
+The invocation of a subprogram is called a subprogram call.                                        The invocation of a coroutine is known as coroutine resume.
+It provides complete execution.                                                                    It provides interleaved execution.
