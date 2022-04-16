@@ -1,0 +1,135 @@
+Question 1. Write an algorithm, draw a flow chart and write its corresponding C program to convert a Binary number to its equivalent Decimal number.
+
+Answer. 
+
+This section will discuss the conversion of Binary numbers to Decimal numbers. Before going to the concept, we need to understand Binary numbers and decimal numbers. As we know, the computer does not understand the words or numbers that humans write or do. Instead, it only understands 0's and 1's. For example, when we type a word or number on a computer, various software or compilers help convert these numbers or words into binary form (0s and 1s bit). So that a computer machine can easily understand these
+
+https://static.javatpoint.com/cpages/images/binary-to-decimal-number-in-c.png
+
+
+Binary number
+A binary number is a number that represents information or data stored in a computer with a combination of 0s and 1s bits. It is also known as the base 2 numeral system because it has two bits, 0s, and 1s. These are binary numbers (0 and 1) 1001, 1010, 1101, 1111, 1010101 etc.
+
+Decimal number
+A decimal number is a number that contains 10 digits from 0 to 9. Its base is 10 because it collects 10 digits (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) and represents or makes the whole number using these ten digits.
+
+Algorithm to convert binary to decimal
+Take a binary number as the input.
+Divide the number by 10 and store the remainder into variable rem.
+decimal_num = decimal_num + rem * base;
+Initially, the decimal_num is 0, and the base is 1, where the rem variable stores the remainder of the number.
+Divide the quotient of the original number by 10.
+Multiply the base by 2.
+Print the decimal of the binary number.
+Convert binary number into a decimal number using while loop
+Let's consider the C program to convert the combination of a binary number (0s and 1s) into the decimal number using a while loop.
+
+#include <stdio.h>  
+#include <conio.h>  
+void main()  
+{  
+    // declaration of variables  
+    int num, binary_num, decimal_num = 0, base = 1, rem;  
+    printf (" Enter a binary number with the combination of 0s and 1s \n");  
+    scanf (" %d", &num); // accept the binary number (0s and 1s)  
+  
+    binary_num = num; // assign the binary number to the binary_num variable  
+      
+      
+    while ( num > 0)  
+    {  
+        rem = num % 10; /* divide the binary number by 10 and store the remainder in rem variable. */  
+        decimal_num = decimal_num + rem * base;  
+        num = num / 10; // divide the number with quotient  
+        base = base * 2;  
+    }  
+  
+    printf ( " The binary number is %d \t", binary_num); // print the binary number  
+    printf (" \n The decimal number is %d \t", decimal_num); // print the decimal   
+    getch();  
+}
+
+Question 2. Write an algorithm and flowchart to calculate the roots of quadratic equation X2 + BX + C = 0.Transform your algorithm in to an equivalent C program.
+
+Answer . 
+The standard form of a quadratic equation is:
+
+ax2 + bx + c = 0, where
+a, b and c are real numbers and
+a != 0
+The term b2; - 4ac is known as the discriminant of a quadratic equation. It tells the nature of the roots.
+
+If the discriminant is greater than 0, the roots are real and different.
+If the discriminant is equal to 0, the roots are real and equal.
+If the discriminant is less than 0, the roots are complex and different.
+
+https://cdn.programiz.com/sites/tutorial2program/files/roots-of-quadratic-equation_0.png
+
+#include <math.h>
+#include <stdio.h>
+int main() {
+    double a, b, c, discriminant, root1, root2, realPart, imagPart;
+    printf("Enter coefficients a, b and c: ");
+    scanf("%lf %lf %lf", &a, &b, &c);
+
+    discriminant = b * b - 4 * a * c;
+
+    // condition for real and different roots
+    if (discriminant > 0) {
+        root1 = (-b + sqrt(discriminant)) / (2 * a);
+        root2 = (-b - sqrt(discriminant)) / (2 * a);
+        printf("root1 = %.2lf and root2 = %.2lf", root1, root2);
+    }
+
+    // condition for real and equal roots
+    else if (discriminant == 0) {
+        root1 = root2 = -b / (2 * a);
+        printf("root1 = root2 = %.2lf;", root1);
+    }
+
+    // if roots are not real
+    else {
+        realPart = -b / (2 * a);
+        imagPart = sqrt(-discriminant) / (2 * a);
+        printf("root1 = %.2lf+%.2lfi and root2 = %.2f-%.2fi", realPart, imagPart, realPart, imagPart);
+    }
+
+    return 0;
+} 
+
+Question 3. Write a C program to generate the following pattern: 
+
+*
+* *
+* * * 
+* * * *
+* * *
+* *
+*
+
+
+Answer. #include <stdio.h>  
+#include <conio.h>  
+void main()  
+{  
+    int num, i, j, m = 1; // declare local variables  
+    printf (" Enter the number to define the columns: \n");  
+    scanf ("%d", & num);  
+    for (i = 1; i <= num; i++)  
+    {  
+        for (j = 1; j <= i; j++)  
+        {  
+            printf( "* ");  
+        }  
+        printf("\n");  
+    }  
+    for (i = num-1; i >= 1; i--)  
+    {  
+        for (j = 1; j <= i; j++)  
+        {  
+            printf ("* ");  
+        }  
+        printf("\n");  
+    }  
+    getch();  
+}  
