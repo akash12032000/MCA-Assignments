@@ -368,3 +368,78 @@ int compareStr(char *str1, char *str2) {
     return -1;
 }
 
+Question 7. Write a C program to sort a list of N numbers
+
+Answer. 
+  #include <stdio.h>
+    void main()
+    {
+ 
+        int i, j, a, n, number[30];
+        printf("Enter the value of N \n");
+        scanf("%d", &n);
+ 
+        printf("Enter the numbers \n");
+        for (i = 0; i < n; ++i)
+            scanf("%d", &number[i]);
+ 
+        for (i = 0; i < n; ++i) 
+        {
+ 
+            for (j = i + 1; j < n; ++j)
+            {
+ 
+                if (number[i] > number[j]) 
+                {
+ 
+                    a =  number[i];
+                    number[i] = number[j];
+                    number[j] = a;
+ 
+                }
+ 
+            }
+ 
+        }
+ 
+        printf("The numbers arranged in ascending order are given below \n");
+        for (i = 0; i < n; ++i)
+            printf("%d\n", number[i]);
+ 
+    }
+    
+Question 8. Write a C program to print reverse of a string (without using strrev() function), and checks that the entered string is a palindrome or not.
+
+Answer. 
+#include<stdio.h>
+#include<string.h>
+        
+void main()
+{
+    int i,n,j,flag = 0;
+    char str[20];
+    printf("Enter the String to get reversed\n");
+    gets(str);
+    n=strlen(str);
+    printf("\nReversed string is \n");
+    for(i=n-1;i>=0;i--)
+    {
+       printf("%c",str[i]);
+    }
+   
+    
+    for(j=0;j < n ;j++){
+        if(str[j] != str[n-j-1]){
+            flag = 1;
+            break;
+           }
+        }
+    
+    if (flag) {
+        printf("\n%s is not a palindrome", str);
+    }    
+    else {
+        printf("\n%s is a palindrome", str);
+    }
+  
+}
