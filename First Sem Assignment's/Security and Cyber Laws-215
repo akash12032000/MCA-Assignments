@@ -83,3 +83,63 @@ The exposed records don’t provide any real names but they do include a great d
 
 The database was discovered by independent researchers who reported that they were able to access a staggering 900 million user records dating from the original app release in 2012 to the present day. 
 
+
+Quiestion 2. Explain the following terms with the help of an example: (20 Marks)
+(i) Steganography
+(ii) Different types of cipher used in cryptography
+(iii) RSA algorithm
+(iv) Authentication and authorisation
+(v) Use of Hash function in security
+
+Answer. 
+i). Steganography is the technique of hiding secret data within an ordinary, non-secret, file or message in order to avoid detection; the secret data is then extracted at its destination. The use of steganography can be combined with encryption as an extra step for hiding or protecting data. Steganography can be used to conceal almost any type of digital content, including text, image, video or audio content; the data to be hidden can be hidden inside almost any other type of digital content. The content to be concealed through steganography -- called hidden text -- is often encrypted before being incorporated into the innocuous-seeming cover text file or data stream. If not encrypted, the hidden text is commonly processed in some way in order to increase the difficulty of detecting the secret content.
+What are examples for steganography?
+Steganography is practiced by those wishing to convey a secret message or code. While there are many legitimate uses for steganography, malware developers have also been found to use steganography to obscure the transmission of malicious code.
+
+Forms of steganography have been used for centuries and include almost any technique for hiding a secret message in an otherwise harmless container. For example, using invisible ink to hide secret messages in otherwise inoffensive messages; hiding documents recorded on microdot -- which can be as small as 1 millimeter in diameter -- on or inside legitimate-seeming correspondence; and even by using multiplayer gaming environments to share information.
+
+ii). 
+Substitution ciphers. Replace bits, characters, or character blocks in plaintext with alternate bits, characters or character blocks to produce ciphertext. ...
+Transposition ciphers. ...
+Polygraphic ciphers. ...
+Permutation ciphers. ...
+Private-key cryptography. ...
+Public-key cryptography.
+
+iii). 
+RSA algorithm is asymmetric cryptography algorithm. Asymmetric actually means that it works on two different keys i.e. Public Key and Private Key. As the name describes that the Public Key is given to everyone and Private key is kept private.
+
+An example of asymmetric cryptography :
+
+A client (for example browser) sends its public key to the server and requests for some data.
+The server encrypts the data using client’s public key and sends the encrypted data.
+Client receives this data and decrypts it.
+
+The idea! The idea of RSA is based on the fact that it is difficult to factorize a large integer. The public key consists of two numbers where one number is multiplication of two large prime numbers. And private key is also derived from the same two prime numbers. So if somebody can factorize the large number, the private key is compromised. Therefore encryption strength totally lies on the key size and if we double or triple the key size, the strength of encryption increases exponentially. RSA keys can be typically 1024 or 2048 bits long, but experts believe that 1024 bit keys could be broken in the near future. But till now it seems to be an infeasible task.
+
+Select two prime no's. Suppose P = 53 and Q = 59.
+Now First part of the Public key  : n = P*Q = 3127.
+ We also need a small exponent say e : 
+But e Must be 
+
+An integer.
+Not be a factor of n. 
+1 < e < Φ(n) [Φ(n) is discussed below], 
+Let us now consider it to be equal to 3.
+
+    
+Our Public Key is made of n and e
+
+iv). 
+
+Authentication	                                                                                                                                    Authorization
+Determines whether users are who they claim to be	                                                                                    Determines what users can and cannot access
+Challenges the user to validate credentials (for example, through passwords, answers to security questions, or facial recognition)	   Verifies whether access is allowed through policies and rules
+Usually done before authorization	                                                                                                      Usually done after successful authentication
+Generally, transmits info through an ID Token                                                                                          	Generally, transmits info through an Access Token
+Generally governed by the OpenID Connect (OIDC) protocol	                                                                              Generally governed by the OAuth 2.0 framework
+Example: Employees in a company are required to authenticate through the network before accessing their company email	                   Example: After an employee successfully authenticates, the system determines what information the employees are allowed to access
+
+v). 
+Hash Function is a function that has a huge role in making a System Secure as it converts normal data given to it as an irregular value of fixed length. We can imagine it to be a Shaker in our homes. 
+When we put data into this function it outputs an irregular value. The Irregular value it outputs is known as “Hash Value”.Hash Values are simply numbers but are often written in Hexadecimal. Computers manage values as Binary. The hash value is also data and is often managed in Binary. A hash function is basically performing some calculations in the computer. Data values that are its output are of fixed length. Length always varies according to the hash function. Value doesn’t vary even if there is a large or small value.  If given the same input, two hash functions will invariably produce the same output. Even if input data entered differs by a single bit, huge change in their output values. Even if input data entered differs huge, there is a very very minimal chance that the hash values produced will be identical. If they are equal it is known as “Hash Collision”.  Converting Hash Codes to their original value is an impossible task to perform. This is the main difference between Encryption as Hash Function.  
