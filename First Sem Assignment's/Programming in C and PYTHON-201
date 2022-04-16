@@ -568,3 +568,177 @@ A subprogram has a single entry point.                                          
 A subprogram is not history sensitive.                                                             A coroutine must be history sensitive.
 The invocation of a subprogram is called a subprogram call.                                        The invocation of a coroutine is known as coroutine resume.
 It provides complete execution.                                                                    It provides interleaved execution.
+
+
+Question 14. Write Short notes on Generators, Iterators and Decorators give suitable python code for each
+
+Answer. Generator-Function : A generator-function is defined like a normal function, but whenever it needs to generate a value, it does so with the yield keyword rather than return. If the body of a def contains yield, the function automatically becomes a generator function.
+
+# A generator function that yields 1 for first time,
+# 2 second time and 3 third time
+def simpleGeneratorFun():
+	yield 1			
+	yield 2			
+	yield 3			
+
+# Driver code to check above generator function
+for value in simpleGeneratorFun():
+	print(value)
+2. Generator-Object : Generator functions return a generator object. Generator objects are used either by calling the next method on the generator object or using the generator object in a “for in” loop (as shown in the above program).
+# A Python program to demonstrate use of
+# generator object with next()
+
+# A generator function
+def simpleGeneratorFun():
+	yield 1
+	yield 2
+	yield 3
+
+# x is a generator object
+x = simpleGeneratorFun()
+
+# Iterating over the generator object using next
+print(x.next()) # In Python 3, __next__()
+print(x.next())
+print(x.next())
+
+
+
+
+# A simple generator for Fibonacci Numbers
+def fib(limit):
+	
+	# Initialize first two Fibonacci Numbers
+	a, b = 0, 1
+
+	# One by one yield next Fibonacci Number
+	while a < limit:
+		yield a
+		a, b = b, a + b
+
+# Create a generator object
+x = fib(5)
+
+# Iterating over the generator object using next
+print(x.next()) # In Python 3, __next__()
+print(x.next())
+print(x.next())
+print(x.next())
+print(x.next())
+
+# Iterating over the generator object using for
+# in loop.
+print("\nUsing for in loop")
+for i in fib(5):
+	print(i)
+
+
+Iterators:- Python iterator objects are required to support two methods while following the iterator protocol.
+
+__iter__ returns the iterator object itself. This is used in for and in statements.
+
+__next__ method returns the next value from the iterator. If there is no more items to return then it should raise StopIteration exception.
+
+class Counter(object):
+    def __init__(self, low, high):
+        self.current = low
+        self.high = high
+
+    def __iter__(self):
+        'Returns itself as an iterator object'
+        return self
+
+    def __next__(self):
+        'Returns the next value till current is lower than high'
+        if self.current > self.high:
+            raise StopIteration
+        else:
+            self.current += 1
+            return self.current - 1
+            
+            
+            
+            
+Decorators:- Decorator is way to dynamically add some new behavior to some objects. We achieve the same in Python by using closures.
+
+In the example we will create a simple example which will print some statement before and after the execution of a function.
+>>> def my_decorator(func):
+...     def wrapper(*args, **kwargs):
+...         print("Before call")
+...         result = func(*args, **kwargs)
+...         print("After call")
+...         return result
+...     return wrapper
+...
+>>> @my_decorator
+... def add(a, b):
+...     "Our add function"
+...     return a + b
+...
+>>> add(1, 3)
+Before call
+After call
+4
+
+Question 15. Write a Program in Python to check if a given year is a leap year
+
+Answer.
+def CheckLeap(Year):  
+  # Checking if the given year is leap year  
+  if((Year % 400 == 0) or  
+     (Year % 100 != 0) and  
+     (Year % 4 == 0)):   
+    print("Given Year is a leap Year");  
+  # Else it is not a leap year  
+  else:  
+    print ("Given Year is not a leap Year")  
+# Taking an input year from user  
+Year = int(input("Enter the number: "))  
+# Printing result  
+CheckLeap(Year)  
+
+Question 16. Briefly discuss the Lambda, map() and filter() function; with suitable code for each
+
+Answer.
+Python Lambda Function Syntax:
+
+lambda arguments: expression
+This function can have any number of arguments but only one expression, which is evaluated and returned.
+One is free to use lambda functions wherever function objects are required.
+You need to keep in your knowledge that lambda functions are syntactically restricted to a single expression.
+
+# Python program to demonstrate
+# lambda functions
+
+
+string ='GeeksforGeeks'
+
+# lambda returns a function object
+print(lambda string : string)
+
+Output
+<function <lambda> at 0x7f65e6bbce18>
+
+Using lambda() Function with filter()
+The filter() function in Python takes in a function and a list as arguments. This offers an elegant way to filter out all the elements of a sequence “sequence”, for which the function returns True. Here is a small program that returns the odd numbers from an input list: 
+
+# Python code to illustrate
+# filter() with lambda()
+li = [5, 7, 22, 97, 54, 62, 77, 23, 73, 61]
+
+final_list = list(filter(lambda x: (x%2 != 0) , li))
+print(final_list)
+
+
+Using lambda() Function with map()
+The map() function in Python takes in a function and a list as an argument. The function is called with a lambda function and a list and a new list is returned which contains all the lambda modified items returned by that function for each item. Example: 
+
+# Python code to illustrate
+# map() with lambda()
+# to get double of a list.
+li = [5, 7, 22, 97, 54, 62, 77, 23, 73, 61]
+
+final_list = list(map(lambda x: x*2, li))
+print(final_list)
+
+It has various uses in particular fields of programming besides other types of expressions in functions.
