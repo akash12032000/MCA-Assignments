@@ -1,0 +1,78 @@
+Question 1:  Write an algorithm for the addition of two matrices 
+
+Answer. Matrix:
+Matrix is a rectangular two-dimensional array of numbers arranged in rows and columns. A matrix with m rows and n columns can be called as m × n matrix. Individual entries in the matrix are called element and can be represented by aij which suggests that the element a is present in the ith row and jth column.
+
+Addition of two matrices:
+Two matrices A and B can be added if and only if they have same dimensions that are, the same number of rows and columns. It is not possible to add a 2 × 3 matrix with a 3 × 2 matrix. Addition of two matrices can be performed by adding their corresponding elements as
+(A + B)ij= Aij + Bij
+https://static.javatpoint.com/programs/images/program-to-calculate-the-addition-of-2-matrices2.png
+
+Addition of two matrices can be performed by looping through the first and second matrix. Add the corresponding elements of both matrices and store the result in the third matrix.
+
+Algorithm
+Declare and initialize 2 two-dimensional arrays a and b.
+Calculate the number of rows and columns present in the array a (as dimensions of both the arrays are same) and store it in variables rows and cols respectively.
+Declare another array sum with the similar dimensions.
+Loop through the arrays a and b, add the corresponding elements
+e.g a11 + b11 = sum11
+Display the elements of array sum.
+
+Python
+#Initialize matrix a  
+a = [  
+        [1, 0, 1],  
+        [4, 5, 6],  
+        [1, 2, 3]  
+    ];  
+   
+#Initialize matrix b  
+b = [  
+          [1, 1, 1],  
+          [2, 3, 1],  
+          [1, 5, 1]  
+     ];  
+   
+#Calculates number of rows and columns present in given matrix  
+rows = len(a);  
+cols = len(a[0]);  
+   
+#Array sum will hold the result and is initialized with zeroes.  
+sum = [[0]*rows for i in range(cols)];  
+   
+#Performs addition of matrices a and b. Store the result in matrix sum  
+for i in range(0, rows):  
+    for j in range(0, cols):  
+        sum[i][j] = a[i][j] + b[i][j];  
+   
+print("Addition of two matrices: ");  
+for i in range(0, rows):  
+    for j in range(0, cols):  
+        print(sum[i][j]),  
+    print("\n")  
+    
+    
+Question 2. Explain the differences between a Tree and Binary Tree. 
+
+Answer. ifference between General tree and Binary tree
+https://media.geeksforgeeks.org/wp-content/uploads/20200219144238/General-Tree-vs-Binary-Tree.png
+
+
+General Tree:
+In the data structure, General tree is a tree in which each node can have either zero or many child nodes. It can not be empty. In general tree, there is no limitation on the degree of a node. The topmost node of a general tree is called the root node. There are many subtrees in a general tree. The subtree of a general tree is unordered because the nodes of the general tree can not be ordered according to specific criteria. In a general tree, each node has in-degree(number of parent nodes) one and maximum out-degree(number of child nodes) n.
+
+https://media.geeksforgeeks.org/wp-content/uploads/20191005131555/General-Tree.jpg
+
+Binary Tree:
+A binary tree is the specialized version of the General tree. A binary tree is a tree in which each node can have at most two nodes. In a binary tree, there is a limitation on the degree of a node because the nodes in a binary tree can’t have more than two child node(or degree two). The topmost node of a binary tree is called root node and there are mainly two subtrees one is left-subtree and another is right-subtree. Unlike the general tree, the binary tree can be empty. Unlike the general tree, the subtree of a binary tree is ordered because the nodes of a binary tree can be ordered according to specific criteria.
+
+https://media.geeksforgeeks.org/wp-content/uploads/20200123012956/Untitled-Diagram631.png
+
+
+General tree	                                                                                               Binary tree
+General tree is a tree in which each node can have many children or nodes.	                                Whereas in binary tree, each node can have at most two nodes.
+The subtree of a general tree do not hold the ordered property.	                                            While the subtree of binary tree hold the ordered property.
+In data structure, a general tree can not be empty.	                                                        While it can be empty.
+In general tree, a node can have at most n(number of child nodes) nodes.	                                  While in binary tree, a node can have at most 2(number of child nodes) nodes.
+In general tree, there is no limitation on the degree of a node.	                                          While in binary tree, there is limitation on the degree of a node because the nodes in a binary tree can’t have more than two child node.
+In general tree, there is either zero subtree or many subtree.	                                            While in binary tree, there are mainly two subtree: Left-subtree and Right-subtree.
