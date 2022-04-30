@@ -1,0 +1,63 @@
+Q1. a) What are laws related to equivalence propositions ? Give example for
+each of equivalence proposition laws.
+
+Answer. https://www.geeksforgeeks.org/mathematical-logic-propositional-equivalences/
+
+
+Q1. b) With respect to rule of precedence, write the truth table for the
+following expression: p « qÚ~r « r Å q
+
+Answer. https://www.techopedia.com/definition/3859/precedence-c#:~:text=Techopedia%20Explains%20Precedence-,What%20Does%20Precedence%20Mean%3F,operations%20should%20be%20calculated%20first.
+
+p	qr rq	(p ↔ (qr ↔ rq))
+F	F 	F 	F
+F	F	  T 	T
+F	T	  F 	T
+F	T 	T 	F
+T	F	  F 	T
+T	F 	T 	F
+T	T 	F 	F
+T	T 	T 	T
+
+
+Q2. a) What are modus ponens and modus tollens? Give example for each.
+
+Answer. https://www.newworldencyclopedia.org/entry/Modus_ponens_and_Modus_tollens
+
+Q2. b) Show that the number is irrational.
+
+Answer. https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/root-11-is-irrational-by-long-division-method-1621338473.png
+
+The value of √11 is 3.31662479036... As we know that a decimal number that is non-terminating and non-repeating is also irrational. The value of root 11 is also non-terminating and non-repeating. This satisfies the condition of √11 being an irrational number.
+
+Q2. c) Using mathematical induction prove that n ! >2! for n >= 4
+
+The result is true for n = 4, since 
+
+4!=2424>42
+
+Let the result be true for n = k, that is
+
+k!>k2
+
+We need to prove that the result is also true for n = k + 1, that is
+
+(k+1)!>(k+1)2
+
+by our assumption
+
+k!>k2
+
+⟹k!(k+1)>k2(k+1)
+
+⟹(k+1)!>k3+k2
+
+⟹(k+1)!>k3+k2+2k+1−2k−1
+
+⟹(k+1)!>(k+1)2+k3−2k−1
+
+⟹(k+1)!>(k+1)2∵k3−2k−1≥55as k≥4
+
+∴The result is true for n= k + 1. Hence by the principle of
+
+mathematical induction , the result is true for all integers≥4
