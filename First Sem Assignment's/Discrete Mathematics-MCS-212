@@ -61,3 +61,12 @@ k!>k2
 ∴The result is true for n= k + 1. Hence by the principle of
 
 mathematical induction , the result is true for all integers≥4
+
+// Write 
+Q3. a) Using Boolean laws, reduce the Boolean expression to simple form.
+(p , q, r )= (p ^ q )v(p ^ q ^ r )v(p ^ r).
+
+Answer.  Chinu Bhaiya 
+
+
+
