@@ -1,0 +1,28 @@
+body {
+  background-color: #bcded5;
+} 
+
+.MainDiv {
+	text-align: -webkit-center;
+	margin: 25px;
+}
+
+.debit {
+	margin-left:5px;
+}
+.sortable tr {
+    cursor: block;
+}
+.btn {
+	margin-right: 3px;
+} 
+#doa {
+	    width: 172px
+}
+#dd {
+	    width: 172px
+}
+
+font{
+	color:red;
+}
